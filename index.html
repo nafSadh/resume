@@ -1,0 +1,364 @@
+<html ng-app="ns7rApp">
+<head>
+	<meta charset="utf-8"/>
+	<title>Resume: Khan 'Sadh' Mostafa</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet"
+				href="bootstrap/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+					integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+					crossorigin="anonymous"></script>
+	<!-- angular js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+	<script
+				src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-sanitize.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.js"></script>
+	<script src="./ui-bootstrap-tpls-1.3.2.min.js"></script>
+	<!-- font awesome -->
+	<link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="bootstrap-print-alike.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="ns7r.css">
+	<script>
+		function applyBootstrapJS() {
+			$('[data-toggle="tooltip"]').tooltip({html: true})
+			$('[data-toggle="popover"]')
+						.popover({html: true, trigger: "hover click focus", placement: 'top'})
+
+			$('.pull-down').each(function () {
+				var $this = $(this);
+				$this.css('margin-top', $this.parent().height() - $this.height())
+			});
+		}
+		var ns7rApp = angular.module('ns7rApp', ['ngSanitize', 'ui.bootstrap']);
+		ns7rApp.directive("ngBindHtmlCompile", function ($compile, $sce) {
+			return {
+				restrict: "A",
+				link: function (scope, element, attrs) {
+					scope.$watch(attrs.ngBindHtmlCompile, function (html) {
+						var el = angular.element("<span>").html(html);
+						element.empty();
+						element.append(el);
+						$compile(element.contents())(scope);
+						applyBootstrapJS()
+					})
+				}
+			};
+		});
+
+		ns7rApp.controller('ns7rCtrl', function ($scope, $http) {
+
+			$http.get('nafSadh-resume.json')
+						.then(function (r) {
+							$scope._ = r.data
+							applyBootstrapJS()
+						})
+
+			$scope.mlt = function mlt(text) {
+				if (angular.isArray(text)) {
+					var t = ''
+					for (var i = 0; i < text.length; i++) {
+						t += text[i]
+					}
+					return t
+				} else {
+					return text
+				}
+			}
+
+			$scope.renderAddress = function (_a) {
+				if (_a != undefined) {
+					var stateTagOpen, stateTagClose;
+					if (_a.stateFull != undefined) {
+						stateTagOpen = "<abbr data-toggle='tooltip' title='" + _a.stateFull + "'>"
+						stateTagClose = "</abbr>"
+					}
+					return _a.street + "<br/>" +
+								 _a.city + ", " +
+								 stateTagOpen + _a.state + stateTagClose
+								 + " "
+								 + _a.postCode;
+				}
+			}
+		})
+	</script>
+</head>
+<body>
+<div ng-controller="ns7rCtrl" class="ns7r container">
+	<div class="row">
+		<div class="left-border col-md-1"></div>
+		<div class="content col-md-7">
+			<header>
+				<h1>{{ _.name }}</h1>
+				<div class="highlights">
+					<span ng-repeat="highlight in _.highlights" ng-bind-html-compile="highlight"></span>
+				</div>
+			</header>
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="section-heading"><span>Experience</span></h3>
+				</div>
+				<div class="panel-body">
+					<ul class="list-group experiences">
+						<li class="list-group-item experience" ng-repeat="job in _.experience">
+							<div class="card">
+								<div class="card-heading">
+									<i class="fa fa-li fa-2x fa-briefcase silver" aria-hidden="true"></i>
+									<script type="text/ng-template" id="jobTitlePopover.html">
+										<span ng-bind-html="job.about"></span>
+									</script>
+									<strong class="card-title"
+													popover-enable="job.about!=undefined"
+													popover-popup-close-delay="500"
+													popover-placement="top-left"
+													popover-trigger="click mouseenter"
+													popover-title="{{ job.company }}"
+													uib-popover-template="'jobTitlePopover.html'">
+										{{job.company}}
+									</strong>
+									<a href="{{ job.mapUrl }}" target="_blank"><i
+												class="fa fa-map-marker dim"></i></a>&thinsp;<em>{{job.location }}</em>
+									<div class="row" ng-repeat="role in job.roles">
+										<div class="col-sm-6">
+											<span class="text-primary job-role">{{ role.title }}</span>
+										</div>
+										<div class="col-sm-6 text-right">
+											<span class="job-period" ng-if="role.time.since!=undefined">
+												{{ role.time.since }}
+												- <i ng-if="role.time.current" class="fa fa-spinner fa-pulse fa-fw"
+														 uib-tooltip="current" print-alt="now"></i>
+												{{ role.time.until}}
+											</span>
+											<span class="job-period" ng-if="role.time.period!=undefined">
+												{{ role.time.period }}
+											</span>
+										</div>
+									</div>
+								</div>
+								<ul class="list-group strips">
+									<li class="list-group-item strip" ng-repeat="info in job.info">
+										<i class="fa-li fa fa-angle-right silver" aria-hidden="true"></i>
+										<span class="description" ng-bind-html-compile="mlt(info.description)"></span>
+										<code ng-repeat="key in info.tech">{{ key }}</code>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="section-heading"><span>Education</span></h3>
+				</div>
+				<div class="panel-body">
+					<ul class="list-group educations">
+						<li class="list-group-item education" ng-repeat="ed in _.education">
+							<div class="card">
+								<div class="card-heading">
+									<i class="fa fa-li fa-2x fa-briefcase silver" aria-hidden="true"></i>
+									<script type="text/ng-template" id="edTitlePopover.html">
+										<span ng-bind-html="ed.about"></span>
+									</script>
+									<strong class="card-title"
+													popover-enable="ed.about!=undefined"
+													popover-popup-close-delay="500"
+													popover-placement="top-left"
+													popover-trigger="click mouseenter"
+													popover-title="{{ ed.institution }}"
+													uib-popover-template="'edTitlePopover.html'">
+										{{ed.institution}}
+									</strong>
+									<a href="{{ ed.mapUrl }}" target="_blank"><i class="fa fa-map-marker dim"></i></a>&thinsp;<em>{{ed.location
+									}}</em>
+									<div class="row" ng-repeat="degree in ed.degree">
+										<div class="col-sm-7">
+											<span class="text-primary degree">{{ degree.title }}</span>
+										</div>
+										<div class="col-sm-5 text-right">
+											<span class="degree-period" ng-if="degree.time.since!=undefined">
+												{{ degree.time.since }}
+												- <i ng-if="degree.time.current" class="fa fa-spinner fa-pulse fa-fw"
+														 uib-tooltip="current"></i>
+												{{ degree.time.until}}
+											</span>
+											<span class="degree-period" ng-if="degree.time.period!=undefined">
+												{{ degree.time.period }}
+											</span>
+										</div>
+									</div>
+								</div>
+								<ul class="list-group strips">
+									<li class="list-group-item strip" ng-repeat="info in ed.info">
+										<i class="fa-li fa fa-angle-right silver" aria-hidden="true"></i>
+										<span ng-if="info.type=='key-courses'">
+											<em>Key Courses</em>: <i class="fa fa-book"></i>
+											<span ng-repeat="course in info.courses" ng-bind-html-compile="course"
+														class="comma-sep-list"></span>
+										</span>
+										<span ng-if="info.type=='thesis'">
+											<em>Thesis</em>: <i class="fa fa-lightbulb-o"></i>
+										</span>
+										<span class="description" ng-bind-html-compile="mlt(info.description)"></span>
+										<code ng-repeat="key in info.tech">{{ key }}</code>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div><!--  content ends -->
+		<div class="sidebar col-md-3">
+			<div style="height: 20px;"></div>
+			<div class="top-info">
+				<div class="row info-address">
+					<ul class="fa-ul">
+						<li>
+							<i class="fa-li fa fa-map-marker" aria-hidden="true"></i>
+							<address ng-bind-html-compile="renderAddress(_.address)"></address>
+						</li>
+						<li>
+							<abbr title="Phone"><i class="fa-li fa fa-phone"></i></abbr>
+							<a href="{{ _.telUrl }}">{{ _.phone }}</a>
+						</li>
+						<li>
+							<abbr title="email"><i class="fa-li fa fa-envelope-o"></i></abbr>
+							<a href="mailto:{{ _.email }}">{{ _.email }}</a>
+						</li>
+						<li>
+							<abbr title="website"><i class="fa-li fa fa-globe"></i></abbr>
+							<a href="{{_.website}}">{{ _.website }}</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div style="height: 20px;">
+			</div>
+			<div class="skills row">
+				<div class="col-sm-12">
+					<span class="main-skills">
+						<strong class="text-primary">Languages:</strong>
+						<span ng-repeat="lang in _.skills.programming"
+									class="comma-sep-list"><code>{{ lang }}</code></span>
+					</span>
+					<br/>
+					<small>
+						<strong class="text-primary">Familiar with:</strong>
+						<span ng-repeat="fw in _.skills.other"
+									class="comma-sep-list"><code>{{ fw }}</code></span>
+						etc.
+					</small>
+				</div>
+			</div>
+			<div class="side-note row">
+				<div class="col-sm-12">
+					<strong class="text-primary">Talked</strong> on
+					“Research in the Computing Industry”
+					<em class="text-muted">at CSE Festival, KUET (Jun 2012)</em>
+				</div>
+			</div>
+			<div class="side-note row">
+				<div class="col-sm-12">
+					<strong class="text-primary">Awarded</strong>
+					“Icon of the Month”
+					<em class="text-muted">by Samsung R&D Institute – Bangladesh</em>
+				</div>
+			</div>
+			<div class="side-note row">
+				<div class="col-sm-12">
+					<strong class="text-primary">11th place</strong> on
+					at ACM ICPC
+					<em class="text-muted">Dhaka Regional programming contest 2007</em>
+				</div>
+			</div>
+			<div class="side-note row">
+				<div class="col-sm-12">
+					<strong class="text-primary">Showcased project</strong>
+					“Smart Home Technology”
+					<em class="text-muted">at BASIS SoftExpo, Dhaka 2008</em>
+				</div>
+			</div>
+			<div class="leadership row">
+				<div class="col-sm-12">
+					<div class="panel">
+						<div class="panel-heading">
+							<h4 class="text-primary">Leadership</h4>
+						</div>
+						<div class="panel-body">
+							<ul class="list-group">
+								<li class="list-group-item">
+									<em>IEEE Student Branch KUET</em><br/>
+									General Secretary,
+									<small> (2008-2009)</small>
+								</li>
+								<li class="list-group-item">
+									<em>Fazlul Haque Hall Committee, KUET</em> -
+									General Secretary
+									<small> (2008-2009)and Asst. Gen. Secretary (2007-2008)</small>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="involvement row">
+				<div class="col-sm-12">
+					<div class="panel">
+						<div class="panel-heading">
+							<h4 class="text-primary">Involvement</h4>
+						</div>
+						<div class="panel-body">
+							<ul class="list-group">
+								<li class="list-group-item">
+									Publisher, <em>lekhalikhi.com</em>
+									- Bengali Literary Community
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="personal-projects row">
+				<div class="col-sm-12">
+					<div class="panel">
+						<div class="panel-heading">
+							<h4 class="text-primary">Personal Projects</h4>
+						</div>
+						<div class="panel-body">
+							TuneTour.me, WaqtScope, Sonnivo, LikhonPad, NLParse and more<br/>
+							<a href="http://nafSadh.com/projects">http://nafSadh.com/projects</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<div ng-repeat="link in _.links" class="link">
+					<i ng-if="link.fa!=undefined" class="fa {{ link.fa }}"></i>
+					<span>{{ link.for }}</span>:
+					<span class="url" ng-repeat="url in link.url"><a href="{{ url }}">{{ url }}</a></span>
+				</div>
+				<div class="stamp">
+					Updated on {{ _.dateUpdated }}, available online:
+					<a href="{{ _.hosted }}">{{ _.hosted }}</a>
+					<br/>
+					Contact for further information
+				</div>
+			</footer>
+		</div>
+	</div>
+	<div class="right-border col-md-1"></div>
+	<div class="row">
+		{{ xml }}
+	</div>
+</div>
+<script>
+	$(function () {
+		applyBootstrapJS()
+	})
+</script>
+</body>
+</html>
