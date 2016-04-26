@@ -20,6 +20,7 @@
 	<!-- font awesome -->
 	<link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="bootstrap-print-alike.css">
+	<link rel="stylesheet" href="fonts.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="ns7r.css">
 	<script>
@@ -125,7 +126,7 @@
 										<div class="col-sm-6">
 											<span class="text-primary job-role">{{ role.title }}</span>
 										</div>
-										<div class="col-sm-6 text-right">
+										<div class="col-sm-6 text-right period">
 											<span class="job-period" ng-if="role.time.since!=undefined">
 												{{ role.time.since }}
 												- <i ng-if="role.time.current" class="fa fa-spinner fa-pulse fa-fw"
@@ -178,7 +179,7 @@
 										<div class="col-sm-7">
 											<span class="text-primary degree">{{ degree.title }}</span>
 										</div>
-										<div class="col-sm-5 text-right">
+										<div class="col-sm-5 text-right period">
 											<span class="degree-period" ng-if="degree.time.since!=undefined">
 												{{ degree.time.since }}
 												- <i ng-if="degree.time.current" class="fa fa-spinner fa-pulse fa-fw"

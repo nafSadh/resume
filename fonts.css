@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic,900,900italic,300,300italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Cardo:400,400italic,700&subset=latin,latin-ext);
+.ns7r .highlights {
+    font-family: Merriweather;
+}
+.ns7r .card {
+    font-family: Merriweather;
+    line-height: 1.6em;
+}
+.ns7r .period {
+    font-size: 95%;
+    font-weight: 300;
+    font-style: italic;
+}
+.ns7r .strips {
+    font-size: 93%;
+    font-weight: 300;
+}
