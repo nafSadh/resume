@@ -17,7 +17,6 @@
     .ns7r.container {
         background: #fffffc;
         width: 930px;
-        font-size: 14px;
         border: 1px solid #eee;
         /*padding-left: 3em;*/
         padding-bottom: 2.5em;
@@ -108,9 +107,7 @@
     margin: 0;
 }
 
-.ns7r .highlights span {
-    display: block;
-}
+
 
 .ns7r .sidebar .list-group {
     margin: 0;
@@ -139,21 +136,10 @@
     color: #eee;
 }
 
-.silver {
-    color: #bbc;
-}
 
-.silver.fa-2x {
-    color: #eef;
-}
 
-.ns7r h3.section-heading {
-    margin-top: 1px;
-}
 
-.ns7r .panel-heading h3 span {
-    display: block;
-}
+
 
 .strip {
     font-size: 93.5%;
