@@ -1,62 +1,89 @@
 /* hover actions */
 @media screen {
     /* section head hover */
-    .ns7r .panel-heading h3:hover span {
-        margin: -4px -4px -4px -56px;
-        border: 4px solid #333;
-        border-left: 56px solid #333;
-        background-color: #333;
+    .ns7r .panel-heading h2:hover span {
+        margin:-4px -4px -4px -56px;
+        border:4px solid #333;
+        border-left:56px solid #333;
+        background-color:#333;
     }
     /* cards hover */
     .card:hover {
-        margin: 0 -4px 0 -4em;
-        border-top: none;
-        border-right: 4px solid #f8f8f8;
-        border-left: 4em solid #f8f8f8;
-        background-color: #f8f8ff;
-        border-radius: 2px;
+        margin:0 -4px 0 -4em;
+        border-top:none;
+        border-right:4px solid #f8f8f8;
+        border-left:4em solid #f8f8f8;
+        background-color:#f8f8ff;
+        border-radius:2px;
     }
     /* strips hover */
     .card:hover .strip:hover {
-        background: #ffc;
-        margin-left: -24px;
-        border-left: 24px solid #f0f0ff;
+        background:#ffc;
+        margin-left:-24px;
+        border-left:24px solid #f0f0ff;
     }
     /* hover text colors */
-    .ns7r .panel-heading h3:hover span { color: #fff; }
-    .card:hover .card-heading { color: #037; }
-    .card:hover .silver { color: #777; }
+    .ns7r .panel-heading h2:hover span { color:#fff; }
+    .card:hover .card-heading { color:#037; }
+    .card:hover .silver { color:#777; }
     .card-heading:hover .silver,
-    .strip:hover .silver { color: #07C; }
+    .strip:hover .silver { color:#07c; }
 }
 /* common layout + colors */
 @media all {
-    .ns7r header { margin-bottom: 1.5em; }
-    .ns7r .list-group { margin-bottom: 3px; }
+    .ns7r header { margin-bottom:1.5em; }
+    .ns7r .highlights span { display:block; }
+    .ns7r h2 { margin-top:.6em; margin-bottom:.4em; }
+    .ns7r h2.section-heading span { display:block; }
+    .ns7r h4 { display:inline; }
+    .ns7r .list-group { margin-bottom:3px; }
     .sidebar {
-        background: #eee !important;
-        border-top: 4px solid #ccc;
+        background:#eee !important;
+        border-top:4px solid #ccc;
     }
-    .sidebar h4 { margin-bottom: 0; }
+    .sidebar h3 { margin-bottom:0; margin-top: .5em;}
     .ns7r footer {
-        margin: 50px -8px 4px -8px;
-        background-color: #ddd !important;
-        border: 8px solid #ddd;
+        margin:45px -8px 4px -8px;
+        background-color:#ddd !important;
+        border:8px solid #ddd;
     }
     .ns7r footer .stamp {
-        margin-top: 1em;
-        border-top: 1px solid #ccc;
+        margin-top:1em;
+        border-top:1px solid #ccc;
+    }
+    .silver {
+        color:#bbc !important;
+    }
+    .silver.fa-2x {
+        color:#eef !important;
     }
 }
-/* fonts */
+/* FONTS */
+/* font base size */
+@media print {
+    .ns7r { font-size:10pt; }
+}
+@media screen {
+    .ns7r { font-size:14px; }
+}
+/* fonts by item */
 @media all {
-    .sidebar h4 { font-size: 105%; font-weight: 700; }
-    .ns7r footer { font-size: 90%; }
+    .ns7r { }
+    .ns7r h2 { font-size:175%; }
+    .ns7r h4 { font-size:100%; font-weight:700; }
+    .sidebar {  }
+    .sidebar h3 { font-size:105%; font-weight:700; }
+    .ns7r footer { font-size:90%; }
 }
 /* individual styles */
 @media all {
     .ns7r code {
-        margin-top: 1px;
-        display: inline-flex;
+        margin-top:1px;
+        display:inline-flex;
     }
 }
+/* element names */
+.name,
+.highlights,
+.section-heading,
+.card-title { }
