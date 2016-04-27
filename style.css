@@ -58,17 +58,30 @@
         color:#eef !important;
     }
 }
+@media screen and (min-width: 1000px) {
+    body {
+        background: #444;
+    }
+    .ns7r.container {
+        background: #fffffc;
+        width: 930px;
+        border: 1px solid #eee;
+        /*padding-left: 3em;*/
+        padding-bottom: 3em;
+        margin-bottom: 8px;
+        margin-top: 8px;
+        box-shadow: 0 3px 3px 1px #222;
+    }
+}
 /* FONTS */
 /* font base size */
 @media print {
-    .ns7r { font-size:10pt; }
 }
 @media screen {
-    .ns7r { font-size:14px; }
 }
 /* fonts by item */
 @media all {
-    .ns7r { }
+    .ns7r { font-size:14px; }
     .ns7r h2 { font-size:175%; }
     .ns7r h4 { font-size:100%; font-weight:700; }
     .sidebar {  }
@@ -82,6 +95,7 @@
         display:inline-flex;
     }
 }
+
 /* element names */
 .name,
 .highlights,

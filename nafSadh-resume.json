@@ -117,9 +117,8 @@
 				{
 					"type": "key-courses",
 					"courses": [
-						"Database", "Data Mining", "Computer Graphics", "Brain and Memory Modeling",
-						"Analysis of Algorithms", "Operating Systems", "Logic in CS",
-						"Artificial Intelligence"
+						"Database", "Data Mining", "Computer Graphics", "Analysis of Algorithms",
+						"Brain and Memory Modeling", "Operating Systems", "Artificial Intelligence", "Logic in CS"
 					]
 				},
 				{

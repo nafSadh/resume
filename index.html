@@ -78,10 +78,10 @@
 						stateTagClose = "</abbr>"
 					}
 					return _a.street + "<br/>" +
-								 _a.city + ", " +
-								 stateTagOpen + _a.state + stateTagClose
-								 + " "
-								 + _a.postCode;
+								_a.city + ", " +
+								stateTagOpen + _a.state + stateTagClose
+								+ " "
+								+ _a.postCode;
 				}
 			}
 		})
@@ -112,21 +112,22 @@
 										<span ng-bind-html="job.about"></span>
 									</script>
 									<h4 class="card-title"
-													popover-enable="job.about!=undefined"
-													popover-popup-close-delay="500"
-													popover-placement="top-left"
-													popover-trigger="click mouseenter"
-													popover-title="{{ job.company }}"
-													uib-popover-template="'jobTitlePopover.html'">
+											popover-enable="job.about!=undefined"
+											popover-popup-close-delay="500"
+											popover-placement="top-left"
+											popover-trigger="click mouseenter"
+											popover-title="{{ job.company }}"
+											uib-popover-template="'jobTitlePopover.html'">
 										{{job.company}}
 									</h4>
 									<a href="{{ job.mapUrl }}" target="_blank"><i
-												class="fa fa-map-marker dim"></i></a>&thinsp;<em>{{job.location }}</em>
+												class="fa fa-map-marker dim"></i></a>&thinsp;<span
+											class="place-name">{{job.location }}</span>
 									<div class="row" ng-repeat="role in job.roles">
 										<div class="col-sm-6">
 											<span class="text-primary job-role">{{ role.title }}</span>
 										</div>
-										<div class="col-sm-6 text-right period">
+										<div class="col-sm-6 text-right time-period">
 											<span class="job-period" ng-if="role.time.since!=undefined">
 												{{ role.time.since }}
 												- <i ng-if="role.time.current" class="fa fa-spinner fa-pulse fa-fw"
@@ -165,21 +166,22 @@
 										<span ng-bind-html="ed.about"></span>
 									</script>
 									<h4 class="card-title"
-													popover-enable="ed.about!=undefined"
-													popover-popup-close-delay="500"
-													popover-placement="top-left"
-													popover-trigger="click mouseenter"
-													popover-title="{{ ed.institution }}"
-													uib-popover-template="'edTitlePopover.html'">
+											popover-enable="ed.about!=undefined"
+											popover-popup-close-delay="500"
+											popover-placement="top-left"
+											popover-trigger="click mouseenter"
+											popover-title="{{ ed.institution }}"
+											uib-popover-template="'edTitlePopover.html'">
 										{{ed.institution}}
 									</h4>
-									<a href="{{ ed.mapUrl }}" target="_blank"><i class="fa fa-map-marker dim"></i></a>&thinsp;<em>{{ed.location
-									}}</em>
+									<a href="{{ ed.mapUrl }}" target="_blank"><i
+												class="fa fa-map-marker dim"></i></a>&thinsp;<span
+											class="place-name">{{ed.location }}</span>
 									<div class="row" ng-repeat="degree in ed.degree">
 										<div class="col-sm-7">
 											<span class="text-primary degree">{{ degree.title }}</span>
 										</div>
-										<div class="col-sm-5 text-right period">
+										<div class="col-sm-5 text-right time-period">
 											<span class="degree-period" ng-if="degree.time.since!=undefined">
 												{{ degree.time.since }}
 												- <i ng-if="degree.time.current" class="fa fa-spinner fa-pulse fa-fw"
