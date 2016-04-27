@@ -9,22 +9,7 @@
     }
 }
 
-@media screen and (min-width: 1000px) {
-    body {
-        background: #444;
-    }
 
-    .ns7r.container {
-        background: #fffffc;
-        width: 930px;
-        border: 1px solid #eee;
-        /*padding-left: 3em;*/
-        padding-bottom: 2.5em;
-        margin-bottom: 8px;
-        margin-top: 8px;
-        box-shadow: 0 3px 3px 1px #222;
-    }
-}
 
 @media print {
     .ns7r.container {
@@ -119,11 +104,11 @@
 }
 
 .list-group-item.strip {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid white;
 }
 
 .list-group-item:first-child.strip {
-    border-top: 1px solid #eee;
+    border-top: 1px solid white;
 }
 
 .list-group-item.strip {

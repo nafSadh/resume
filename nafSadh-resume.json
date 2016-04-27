@@ -1,5 +1,5 @@
 {
-	"name": "Khan 'Sadh' Mostafa",
+	"name": "Khan ‘Sadh’ Mostafa",
 	"highlights": [
 		"Software Engineer at Teledata Communication, Inc.",
 		"MS in CS from Stony Brook / B.Sc. (Engineering) from KUET",
@@ -117,9 +117,8 @@
 				{
 					"type": "key-courses",
 					"courses": [
-						"Database", "Data Mining", "Computer Graphics", "Brain and Memory Modeling",
-						"Analysis of Algorithms", "Operating Systems", "Logic in CS",
-						"Artificial Intelligence"
+						"Database", "Data Mining", "Computer Graphics", "Operating Systems", "Analysis of Algorithms",
+						"Brain and Memory Modeling", "Artificial Intelligence", "Logic in CS"
 					]
 				},
 				{
@@ -172,7 +171,7 @@
 					"type": "project",
 					"description": [
 						"Developed a Smart home technology, which includes a centrally controlled local system of devices and sensors that actuates smartly upon perceptions. The control unit interfaces with local GUI as well as internet and cellular networks ",
-						"<a data-toggle='tooltip' title='Showcased on BASIS SoftExpo 2008'><span class='glyphicon glyphicon glyphicon-certificate' style='color: darkgoldenrod;' title=''></span></a>"
+						"<a data-toggle='tooltip' title='Showcased on BASIS SoftExpo 2008'><span class='glyphicon glyphicon glyphicon-certificate' style='color: darkgoldenrod;' title=''></span></a><br/>"
 					],
 					"tech": ["Java", "ASM", "Microcontroller"]
 				}

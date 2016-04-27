@@ -16,6 +16,12 @@
         background-color:#f8f8ff;
         border-radius:2px;
     }
+    .card:hover .list-group-item.strip {
+        border-bottom: 1px solid #eee;
+    }
+    .card:hover .list-group-item:first-child.strip {
+        border-top: 1px solid #eee;
+    }
     /* strips hover */
     .card:hover .strip:hover {
         background:#ffc;
@@ -32,7 +38,8 @@
 /* common layout + colors */
 @media all {
     .ns7r header { margin-bottom:1.5em; }
-    .ns7r .highlights span { display:block; }
+    .ns7r .name {}
+    .ns7r .highlights span { display:block; color:#444;}
     .ns7r h2 { margin-top:.3em; margin-bottom:.2em; }
     .ns7r h2.section-heading span { display:block; }
     .ns7r h4 { display:inline; }
@@ -58,21 +65,34 @@
         color:#eef !important;
     }
 }
+@media screen and (min-width: 1000px) {
+    body {
+        background: #888;
+    }
+    .ns7r.container {
+        background: #fffffc;
+        width: 930px;
+        border: 1px solid #eee;
+        /*padding-left: 3em;*/
+        padding-bottom: 3em;
+        margin-bottom: 8px;
+        margin-top: 8px;
+        box-shadow: 0 3px 3px 1px #666;
+    }
+}
 /* FONTS */
 /* font base size */
 @media print {
-    .ns7r { font-size:10pt; }
 }
 @media screen {
-    .ns7r { font-size:14px; }
 }
 /* fonts by item */
 @media all {
-    .ns7r { }
+    .ns7r { font-size:14px; }
     .ns7r h2 { font-size:175%; }
     .ns7r h4 { font-size:100%; font-weight:700; }
     .sidebar {  }
-    .sidebar h3 { font-size:105%; font-weight:700; }
+    .sidebar h3 { font-size:105%;  }
     .ns7r footer { font-size:90%; }
 }
 /* individual styles */
@@ -82,6 +102,7 @@
         display:inline-flex;
     }
 }
+
 /* element names */
 .name,
 .highlights,

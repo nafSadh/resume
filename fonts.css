@@ -1,18 +1,41 @@
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic,900,900italic,300,300italic&subset=latin,latin-ext);
-@import url(https://fonts.googleapis.com/css?family=Cardo:400,400italic,700&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Oxygen|Source+Code+Pro|Open+Sans:400,600,400italic,600italic|Lora:400,400italic|Merriweather:400,400italic,700,700italic);
+.ns7r .name {
+    font-family:'Open Sans', sans-serif;
+    font-weight:300;
+}
 .ns7r .highlights {
-    font-family: Merriweather;
+    font-family:Merriweather, serif;
+}
+.ns7r .place-name,
+.ns7r .time-period {
+    font-family:Lora, serif;
+    font-style:italic;
 }
 .ns7r .card {
-    font-family: Merriweather;
-    line-height: 1.6em;
-}
-.ns7r .period {
-    font-size: 95%;
-    font-weight: 300;
-    font-style: italic;
+    font-family:Merriweather, serif;
+    line-height:1.5em;
 }
 .ns7r .strips {
-    font-size: 93%;
-    font-weight: 300;
+    font-size:95%;
+    font-weight:300;
+}
+.ns7r h2 {
+    font-family:Oxygen, sans-serif;
+    font-weight:400;
+}
+.sidebar {
+    font-family:'Open Sans', sans-serif;
+    font-size:95%
+}
+.sidebar strong {
+    font-weight:600;
+}
+.sidebar h3 {
+    font-weight:600;
+}
+code {
+    font-family:Consolas, 'Source Code Pro', monospace;
+}
+body{
+    font-family:'Lora', sans-serif;
 }
