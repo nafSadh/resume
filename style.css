@@ -38,7 +38,8 @@
 /* common layout + colors */
 @media all {
     .ns7r header { margin-bottom:1.5em; }
-    .ns7r .highlights span { display:block; }
+    .ns7r .name {}
+    .ns7r .highlights span { display:block; color:#444;}
     .ns7r h2 { margin-top:.3em; margin-bottom:.2em; }
     .ns7r h2.section-heading span { display:block; }
     .ns7r h4 { display:inline; }
@@ -66,7 +67,7 @@
 }
 @media screen and (min-width: 1000px) {
     body {
-        background: #444;
+        background: #888;
     }
     .ns7r.container {
         background: #fffffc;
@@ -76,7 +77,7 @@
         padding-bottom: 3em;
         margin-bottom: 8px;
         margin-top: 8px;
-        box-shadow: 0 3px 3px 1px #222;
+        box-shadow: 0 3px 3px 1px #666;
     }
 }
 /* FONTS */
