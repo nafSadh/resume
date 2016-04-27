@@ -117,8 +117,8 @@
 				{
 					"type": "key-courses",
 					"courses": [
-						"Database", "Data Mining", "Computer Graphics", "Analysis of Algorithms",
-						"Brain and Memory Modeling", "Operating Systems", "Artificial Intelligence", "Logic in CS"
+						"Database", "Data Mining", "Computer Graphics", "Operating Systems", "Analysis of Algorithms",
+						"Brain and Memory Modeling", "Artificial Intelligence", "Logic in CS"
 					]
 				},
 				{
@@ -171,7 +171,7 @@
 					"type": "project",
 					"description": [
 						"Developed a Smart home technology, which includes a centrally controlled local system of devices and sensors that actuates smartly upon perceptions. The control unit interfaces with local GUI as well as internet and cellular networks ",
-						"<a data-toggle='tooltip' title='Showcased on BASIS SoftExpo 2008'><span class='glyphicon glyphicon glyphicon-certificate' style='color: darkgoldenrod;' title=''></span></a>"
+						"<a data-toggle='tooltip' title='Showcased on BASIS SoftExpo 2008'><span class='glyphicon glyphicon glyphicon-certificate' style='color: darkgoldenrod;' title=''></span></a><br/>"
 					],
 					"tech": ["Java", "ASM", "Microcontroller"]
 				}
