@@ -1,4 +1,4 @@
-.ns7r.container {
+.ns7r.container  {
     padding-top: 2.5em;
 }
 
@@ -6,42 +6,6 @@
     .ns7r span[uib-tooltip],
     .ns7r abbr[title] {
         border-bottom: 1px dotted #ccc;
-    }
-}
-
-
-
-@media print {
-    .ns7r.container {
-        width: 930px;
-    }
-
-    .print-link i.fa {
-        display: none;
-    }
-
-    a[href].print-link::after {
-        display: inline !important;
-        content: " (" attr(href) ")";
-    }
-
-    .ns7r span[uib-tooltip],
-    .ns7r abbr[title] {
-        border-bottom: none;
-    }
-
-    .fa[print-alt] {
-        animation: none;
-        font: inherit !important;
-    }
-
-    .fa[print-alt]:before {
-        display: none !important;
-    }
-
-    .fa[print-alt]:after {
-        display: inline-flex;
-        content: attr(print-alt);
     }
 }
 
