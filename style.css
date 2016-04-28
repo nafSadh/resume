@@ -78,7 +78,7 @@
 }
 @media screen and (min-width: 1000px) {
     body {
-        background: #888;
+        background: #444;
     }
 
     .ns7r.container {
@@ -89,7 +89,7 @@
         padding-bottom: 3em;
         margin-bottom: 8px;
         margin-top: 8px;
-        box-shadow: 0 3px 3px 1px #666;
+        box-shadow: 0 3px 3px 1px #333;
     }
 }
 
