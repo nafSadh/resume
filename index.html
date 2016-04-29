@@ -52,7 +52,7 @@
 
 		ns7rApp.controller('ns7rCtrl', function ($scope, $http) {
 
-			$http.get('nafSadh-resume.json')
+			$http.get('resume.json')
 						.then(function (r) {
 							$scope._ = r.data
 							applyBootstrapJS()
