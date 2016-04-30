@@ -31,7 +31,7 @@
   "sideNotes": [
     {
       "about": "Technical knowledge",
-      "info": "DSP, Embedded Systems, Device Driver, ARM, Linux"
+      "info": "DSP, Audio Processing, Image Processing, Music Information Retrieval, Software defined radio design, Embedded Systems, Device Driver, ARM, Linux"
     },
     {
       "about": "Simulation",
@@ -39,7 +39,7 @@
     },
     {
       "about": "Development",
-      "info": "Object Oriented Design, UML, WPF"
+      "info": "GUI, Object Oriented Design, UML, WPF"
     },
     {
       "about": "Hardware & systems skills",
@@ -149,12 +149,10 @@
         },
         {
           "type": "course-project",
-          "description": "developed a real-time karaoke app for synthesizing voice on top of instrumental music which displays musical notes by detecting pitch of produced music; also developed feature for mashing up multiple music tracks",
+          "description": "developed a real-time karaoke UI app for synthesizing voice on top of instrumental music which displays musical notes by detecting pitch of produced music; also developed feature for mashing up multiple music tracks",
           "tech": [
             "Python",
-            "Tinkter",
-            "GUI",
-            "pyDub",
+            "Tkinter",
             "pygame"
           ]
         },
