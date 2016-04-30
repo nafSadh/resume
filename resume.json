@@ -194,13 +194,10 @@
         {
           "type": "key-courses",
           "courses": [
-            "Ha",
-            "Digital Signal Processing I & II",
-            "Digital Signal Processing Lab",
-            "Internet Architecture Protocol",
-            "Probability and Stochastic Processes",
-            "Software Defined Radio",
-            "Radio Frequency Microwave"
+            "Digital Signal Processing",
+            "Digital Communication System",
+            "Linear Systems",
+            "Wireless Communication"
           ]
         }
       ]
