@@ -66,7 +66,7 @@
     }
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 979px) {
     .ns7r.container {
         padding: 1em;
         margin: 1em;
@@ -82,7 +82,7 @@
         text-align: left;
     }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 980px) {
     body {
         background: #444;
     }
