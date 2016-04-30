@@ -17,10 +17,10 @@
         border-radius:2px;
     }
     .card:hover .list-group-item.strip {
-        border-bottom: 1px solid #eee;
-    }
-    .card:hover .list-group-item:first-child.strip {
         border-top: 1px solid #eee;
+    }
+    .card:hover .list-group-item:last-child.strip {
+        border-bottom: 1px solid #eee;
     }
     /* strips hover */
     .card:hover .strip:hover {
@@ -74,6 +74,12 @@
     }
     .silver {
         display: none;
+    }
+    .list-group-item.strip {
+        border-top: 1px solid #f0f0f0 !important;
+    }
+    .time-period.text-right{
+        text-align: left;
     }
 }
 @media screen and (min-width: 1000px) {

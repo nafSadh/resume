@@ -68,11 +68,11 @@
 }
 
 .list-group-item.strip {
-    border-bottom: 1px solid white;
+    border-top: 1px solid white;
 }
 
-.list-group-item:first-child.strip {
-    border-top: 1px solid white;
+.list-group-item:last-child.strip {
+    border-bottom: 1px solid white;
 }
 
 .list-group-item.strip {
