@@ -52,7 +52,7 @@
 
 		ns7rApp.controller('ns7rCtrl', function ($scope, $http) {
 
-			$http.get('nafSadh-resume.json')
+			$http.get('resume.json')
 						.then(function (r) {
 							$scope._ = r.data
 							applyBootstrapJS()
@@ -178,10 +178,11 @@
 												class="fa fa-map-marker dim"></i></a>&thinsp;<span
 											class="place-name">{{ed.location }}</span>
 									<div class="row" ng-repeat="degree in ed.degree">
-										<div class="col-md-7">
+										<div class="col-md-8">
 											<span class="text-primary degree">{{ degree.title }}</span>
+											<small class="text-muted cgpa">(CGPA:{{degree.cgpa}})</small>
 										</div>
-										<div class="col-md-5 text-right time-period">
+										<div class="col-md-4 text-right time-period">
 											<span class="degree-period" ng-if="degree.time.since!=undefined">
 												{{ degree.time.since }}
 												- <i ng-if="degree.time.current" class="fa fa-spinner fa-pulse fa-fw"
