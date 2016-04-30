@@ -37,7 +37,7 @@
 }
 /* common layout + colors */
 @media all {
-    .ns7r header { margin-bottom:1.5em; }
+    .ns7r header { margin-bottom:2.5em; }
     .ns7r .name {}
     .ns7r .highlights span { display:block; color:#444;}
     .ns7r h2 { margin-top:.3em; margin-bottom:.2em; }
@@ -48,9 +48,10 @@
         background:#eee !important;
         border-top:4px solid #ccc;
     }
+    .skills { margin-bottom:2em; }
     .sidebar h3 { margin-bottom:0; margin-top: .5em;}
     .ns7r footer {
-        margin:45px -8px 4px -8px;
+        margin:120px -8px 4px -8px;
         background-color:#ddd !important;
         border:8px solid #ddd;
     }
@@ -134,7 +135,7 @@
 }
 /* fonts by item */
 @media all {
-    .ns7r { font-size:14px; }
+    .ns7r { font-size:15px; }
     .ns7r h2 { font-size:175%; }
     .ns7r h4 { font-size:100%; font-weight:700; }
     .sidebar {  }

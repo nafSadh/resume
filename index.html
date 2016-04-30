@@ -1,7 +1,7 @@
 <html ng-app="ns7rApp">
 <head>
 	<meta charset="utf-8"/>
-	<title>Resume: Khan 'Sadh' Mostafa</title>
+	<title>Resume: Sampreeti Alam</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet"
 				href="bootstrap/css/bootstrap.min.css">
@@ -52,7 +52,7 @@
 
 		ns7rApp.controller('ns7rCtrl', function ($scope, $http) {
 
-			$http.get('nafSadh-resume.json')
+			$http.get('resume.json')
 						.then(function (r) {
 							$scope._ = r.data
 							applyBootstrapJS()
@@ -98,6 +98,69 @@
 					<span ng-repeat="highlight in _.highlights" ng-bind-html-compile="highlight"></span>
 				</div>
 			</header>
+
+			<div class="panel">
+				<div class="panel-heading">
+					<h2 class="section-heading"><span>Education</span></h2>
+				</div>
+				<div class="panel-body">
+					<ul class="list-group educations">
+						<li class="list-group-item education" ng-repeat="ed in _.education">
+							<div class="card">
+								<div class="card-heading">
+									<i class="fa fa-li fa-2x fa-briefcase silver" aria-hidden="true"></i>
+									<script type="text/ng-template" id="edTitlePopover.html">
+										<span ng-bind-html="ed.about"></span>
+									</script>
+									<h4 class="card-title"
+													popover-enable="ed.about!=undefined"
+													popover-popup-close-delay="500"
+													popover-placement="top-left"
+													popover-trigger="click mouseenter"
+													popover-title="{{ ed.institution }}"
+													uib-popover-template="'edTitlePopover.html'">
+										{{ed.institution}}
+									</h4>
+									<a href="{{ ed.mapUrl }}" target="_blank"><i
+													class="fa fa-map-marker dim"></i></a>&thinsp;<span
+												class="place-name">{{ed.location }}</span>
+									<div class="row" ng-repeat="degree in ed.degree">
+										<div class="col-md-8">
+											<span class="text-primary degree">{{ degree.title }}</span>
+										</div>
+										<div class="col-md-4 text-right time-period">
+											<span class="degree-period" ng-if="degree.time.since!=undefined">
+												{{ degree.time.since }}
+												- <i ng-if="degree.time.current" class="fa fa-spinner fa-pulse fa-fw"
+															uib-tooltip="current"></i>
+												{{ degree.time.until}}
+											</span>
+											<span class="degree-period" ng-if="degree.time.period!=undefined">
+												{{ degree.time.period }}
+											</span>
+										</div>
+									</div>
+								</div>
+								<ul class="list-group strips">
+									<li class="list-group-item strip" ng-repeat="info in ed.info">
+										<i class="fa-li fa fa-angle-right silver" aria-hidden="true"></i>
+										<span ng-if="info.type=='key-courses'">
+											<em>Key Courses</em>: <i class="fa fa-book"></i>
+											<span ng-repeat="course in info.courses" ng-bind-html-compile="course"
+															class="comma-sep-list"></span>
+										</span>
+										<span ng-if="info.type=='thesis'">
+											<em>Thesis</em>: <i class="fa fa-lightbulb-o"></i>
+										</span>
+										<span class="description" ng-bind-html-compile="mlt(info.description)"></span>
+										<code ng-repeat="key in info.tech">{{ key }}</code>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
 			<div class="panel">
 				<div class="panel-heading">
 					<h2 class="section-heading"><span>Experience</span></h2>
@@ -152,68 +215,6 @@
 					</ul>
 				</div>
 			</div>
-			<div class="panel">
-				<div class="panel-heading">
-					<h2 class="section-heading"><span>Education</span></h2>
-				</div>
-				<div class="panel-body">
-					<ul class="list-group educations">
-						<li class="list-group-item education" ng-repeat="ed in _.education">
-							<div class="card">
-								<div class="card-heading">
-									<i class="fa fa-li fa-2x fa-briefcase silver" aria-hidden="true"></i>
-									<script type="text/ng-template" id="edTitlePopover.html">
-										<span ng-bind-html="ed.about"></span>
-									</script>
-									<h4 class="card-title"
-											popover-enable="ed.about!=undefined"
-											popover-popup-close-delay="500"
-											popover-placement="top-left"
-											popover-trigger="click mouseenter"
-											popover-title="{{ ed.institution }}"
-											uib-popover-template="'edTitlePopover.html'">
-										{{ed.institution}}
-									</h4>
-									<a href="{{ ed.mapUrl }}" target="_blank"><i
-												class="fa fa-map-marker dim"></i></a>&thinsp;<span
-											class="place-name">{{ed.location }}</span>
-									<div class="row" ng-repeat="degree in ed.degree">
-										<div class="col-md-7">
-											<span class="text-primary degree">{{ degree.title }}</span>
-										</div>
-										<div class="col-md-5 text-right time-period">
-											<span class="degree-period" ng-if="degree.time.since!=undefined">
-												{{ degree.time.since }}
-												- <i ng-if="degree.time.current" class="fa fa-spinner fa-pulse fa-fw"
-														 uib-tooltip="current"></i>
-												{{ degree.time.until}}
-											</span>
-											<span class="degree-period" ng-if="degree.time.period!=undefined">
-												{{ degree.time.period }}
-											</span>
-										</div>
-									</div>
-								</div>
-								<ul class="list-group strips">
-									<li class="list-group-item strip" ng-repeat="info in ed.info">
-										<i class="fa-li fa fa-angle-right silver" aria-hidden="true"></i>
-										<span ng-if="info.type=='key-courses'">
-											<em>Key Courses</em>: <i class="fa fa-book"></i>
-											<span ng-repeat="course in info.courses" ng-bind-html-compile="course"
-														class="comma-sep-list"></span>
-										</span>
-										<span ng-if="info.type=='thesis'">
-											<em>Thesis</em>: <i class="fa fa-lightbulb-o"></i>
-										</span>
-										<span class="description" ng-bind-html-compile="mlt(info.description)"></span>
-										<code ng-repeat="key in info.tech">{{ key }}</code>
-									</li>
-								</ul>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
 		</div><!--  content ends -->
 		<div class="sidebar col-md-3">
 			<div style="height: 20px;"></div>
@@ -249,91 +250,26 @@
 									class="comma-sep-list"><code>{{ lang }}</code></span>
 					</span>
 					<br/>
-					<small>
+					<span>
 						<strong class="text-primary">Familiar with:</strong>
 						<span ng-repeat="fw in _.skills.other"
 									class="comma-sep-list"><code>{{ fw }}</code></span>
 						etc.
-					</small>
+					</span>
 				</div>
 			</div>
-			<div class="side-note row">
-				<div class="col-md-12">
-					<strong class="text-primary">Talked</strong> on
-					“Research in the Computing Industry”
-					<em class="text-muted">at CSE Festival, KUET (Jun 2012)</em>
-				</div>
-			</div>
-			<div class="side-note row">
-				<div class="col-md-12">
-					<strong class="text-primary">Awarded</strong>
-					“Icon of the Month”
-					<em class="text-muted">by Samsung R&D Institute – Bangladesh</em>
-				</div>
-			</div>
-			<div class="side-note row">
-				<div class="col-md-12">
-					<strong class="text-primary">11th place</strong> on
-					at ACM ICPC
-					<em class="text-muted">Dhaka Regional programming contest 2007</em>
-				</div>
-			</div>
-			<div class="side-note row">
-				<div class="col-md-12">
-					<strong class="text-primary">Showcased project</strong>
-					“Smart Home Technology”
-					<em class="text-muted">at BASIS SoftExpo, Dhaka 2008</em>
-				</div>
-			</div>
-			<div class="leadership row">
+			<div class="side-note row" ng-repeat="sn in _.sideNotes">
 				<div class="col-md-12">
 					<div class="panel">
 						<div class="panel-heading">
-							<h3 class="text-primary">Leadership</h3>
+							<h3 class="text-primary">{{ sn.about }}</h3>
 						</div>
 						<div class="panel-body">
 							<ul class="list-group">
 								<li class="list-group-item">
-									<em>IEEE Student Branch KUET</em><br/>
-									General Secretary,
-									<small> (2008-2009)</small>
-								</li>
-								<li class="list-group-item">
-									<em>Fazlul Haque Hall Committee, KUET</em> -
-									General Secretary
-									<small> (2008-2009)and Asst. Gen. Secretary (2007-2008)</small>
+									{{sn.info}}
 								</li>
 							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="involvement row">
-				<div class="col-md-12">
-					<div class="panel">
-						<div class="panel-heading">
-							<h3 class="text-primary">Involvement</h3>
-						</div>
-						<div class="panel-body">
-							<ul class="list-group">
-								<li class="list-group-item">
-									Publisher, <em>lekhalikhi.com</em>
-									- Bengali Literary Community
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="personal-projects row">
-				<div class="col-md-12">
-					<div class="panel">
-						<div class="panel-heading">
-							<h3 class="text-primary">Personal Projects</h3>
-						</div>
-						<div class="panel-body">
-							TuneTour.me, WaqtScope, Sonnivo, LikhonPad, NLParse and more<br/>
-							<a href="http://nafSadh.com/projects">http://nafSadh.com/projects</a>
 						</div>
 					</div>
 				</div>

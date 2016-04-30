@@ -1,0 +1,227 @@
+{
+  "name": "Sampreeti Alam",
+  "highlights": [
+    "MS Electrical Engineering at NYU Engineering",
+    "B.Sc. (Engineering) from RUET",
+    "4+ years in industry"
+  ],
+  "address": {
+    "street": "190 Mineola Blvd 5L",
+    "city": "Mineola",
+    "state": "NY",
+    "stateFull": "New York",
+    "postCode": "11501"
+  },
+  "phone": "+1 (631) 565-3464",
+  "telUrl": "tel:+16315653464",
+  "email": "sampreeti.a@gmail.com",
+  "website": "http://sampreeti.com",
+  "skills": {
+    "programming": [
+      "MATLAB",
+      "Python"
+    ],
+    "other": [
+      "C",
+      "C++",
+      "C#",
+      "JavaScript"
+    ]
+  },
+  "sideNotes": [
+    {
+      "about": "Technical knowledge",
+      "info": "DSP, Embedded Systems, Device Driver, ARM, Linux"
+    },
+    {
+      "about": "Simulation",
+      "info": "MATLAB, PSpice, Visual Studio"
+    },
+    {
+      "about": "Development",
+      "info": "Object Oriented Design, UML, WPF"
+    },
+    {
+      "about": "Hardware & systems skills",
+      "info": "Porting and optimization of various algorithms on hardware, Microcontroller programming, Linux tool chain"
+    },
+    {
+      "about": "Leadership",
+      "info": "Class Representative(2008), Section A, Class of 2010, EEE Department, RUET"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Samsung R&D Institute – Bangladesh",
+      "about": "<img src='http://nafsadh.com/img/srbd.png' width='32px'/>SRBD is one of the 33 global Research & Development centers and 6 Design centers of Samsung Electronics. It is considered as first R&D settlement of a multinational corporation in Bangladesh. Its operation started in June, 2010.",
+      "location": "Dhaka, Bangladesh",
+      "mapUrl": "https://goo.gl/maps/RQqmKHCbZry",
+      "roles": [
+        {
+          "title": "Sr. Software Engineer",
+          "time": {
+            "since": "Feb 2013",
+            "until": "Aug 2015"
+          }
+        },
+        {
+          "title": "Software Engineer",
+          "time": {
+            "since": "Nov 2010",
+            "until": "Feb 2013"
+          }
+        }
+      ],
+      "info": [
+        {
+          "type": "responsibility",
+          "description": "Simulated digital signal modulation over noisy AWGN channel, implemented transmitter & inner receiver and reconstructed signal at receiver end using SRRC filters as part of DSP exploratory project",
+          "tech": [
+            "C",
+            "Juzzle Simulator"
+          ]
+        },
+        {
+          "type": "responsibility",
+          "description": "Developed Windows & Linux based platform on target SoC for <abbr data-toggle='tooltip' title='Field-programmable gate array'>FPGA</abbr> and post-silicon Camera SoC (System on Chip) verification and implemented a host – target interaction protocol <br/>",
+          "tech": [
+            "C#",
+            "WPF",
+            "C",
+            "Linux"
+          ]
+        },
+        {
+          "type": "responsibility",
+          "description": "Developed modules of a camera SoC verification tool based on μC/OS-II, .",
+          "tech": [
+            "C",
+            "NAND/NOR Flash",
+            "OneNAND",
+            "DMA"
+          ]
+        },
+        {
+          "type": "responsibility",
+          "description": "Ported and Optimized WebP to run on Samsung's reconfigurable processor within time constraints",
+          "tech": [
+            "C++"
+          ]
+        },
+        {
+          "type": "responsibility",
+          "description": "Application development for Tizen ",
+          "tech": [
+            "JavaScript",
+            "HTML5"
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "NYU Tandon School of Engineering",
+      "about": "",
+      "location": "Brooklyn, NY",
+      "mapUrl": "",
+      "degree": [
+        {
+          "title": "MS Electrical Engineering",
+          "time": {
+            "since": "Jan 2015",
+            "until": "Dec 2016"
+          }
+        }
+      ],
+      "info": [
+        {
+          "type": "key-courses",
+          "courses": [
+            "Audio Content Analysis",
+            "Digital Signal Processing I & II",
+            "Digital Signal Processing Lab",
+            "Internet Architecture Protocol",
+            "Probability and Stochastic Processes",
+            "Software Defined Radio",
+            "Radio Frequency Microwave"
+          ]
+        },
+        {
+          "type": "course-project",
+          "description": "developed a real-time karaoke app for synthesizing voice on top of instrumental music which displays musical notes by detecting pitch of produced music; also developed feature for mashing up multiple music tracks",
+          "tech": [
+            "Python",
+            "Tinkter",
+            "GUI",
+            "pyDub",
+            "pygame"
+          ]
+        },
+        {
+          "type": "course-project",
+          "description": "Designed software defined radio with agile RX/TX which adaptively maximize SNR while aiming to maximize packet reception",
+          "tech": [
+            "Python"
+          ]
+        }
+      ]
+    },
+    {
+      "institution": "Rajshahi University of Engineering & Technology",
+      "about": "",
+      "location": "Bangladesh",
+      "mapUrl": "",
+      "degree": [
+        {
+          "title": "B.Sc. Electrical and Electronics Engineering",
+          "time": {
+            "since": "Jan 2006",
+            "until": "Apr 2010"
+          }
+        }
+      ],
+      "info": [
+        {
+          "type": "thesis",
+          "description": [
+            "&ldquo;Study and Performance Comparison of Different Modulation Techniques in ",
+            " Wireless Communication System&rdquo;: ",
+            "dealt with processing of digital signals over AWGN and Fading Channel found interesting ",
+            "simulation of digital signals passing through noisy channels and reconstruction at receiver "
+          ]
+        },
+        {
+          "type": "key-courses",
+          "courses": [
+            "Ha",
+            "Digital Signal Processing I & II",
+            "Digital Signal Processing Lab",
+            "Internet Architecture Protocol",
+            "Probability and Stochastic Processes",
+            "Software Defined Radio",
+            "Radio Frequency Microwave"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "for": "GitHub",
+      "fa": "fa-github",
+      "url": [
+        "http://github.com/sampreeti"
+      ]
+    },
+    {
+      "for": "Profiles",
+      "fa": "fa-linkedin",
+      "url": [
+        "http://bit.ly/li-sampreeti"
+      ]
+    }
+  ],
+  "dateUpdated": "Apr 25, 2016",
+  "hosted": "http://sampreeti.github.io/resume"
+}

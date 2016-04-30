@@ -13,11 +13,12 @@
 }
 .ns7r .card {
     font-family:Merriweather, serif;
-    line-height:1.5em;
+    line-height:2em;
 }
 .ns7r .strips {
     font-size:95%;
     font-weight:300;
+    line-height:2.1em;
 }
 .ns7r h2 {
     font-family:Oxygen, sans-serif;
@@ -25,7 +26,7 @@
 }
 .sidebar {
     font-family:'Open Sans', sans-serif;
-    font-size:95%
+    font-size:88%
 }
 .sidebar strong {
     font-weight:600;

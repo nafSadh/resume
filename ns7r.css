@@ -1,5 +1,5 @@
 .ns7r.container  {
-    padding-top: 2.5em;
+    padding-top: 4.5em;
 }
 
 @media screen {
@@ -34,7 +34,7 @@
 }
 
 .ns7r {
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 
 .ns7r .panel,
@@ -105,7 +105,7 @@
 
 .skills div,
 .side-note div {
-    margin: 8px 0;
+    margin: 0;
 }
 
 .main-skills code {
