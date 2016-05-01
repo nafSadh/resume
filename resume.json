@@ -49,7 +49,11 @@
       "info": [
         {
           "type": "responsibility",
-          "description": "Developing backend business logic and frontend user interface along with service integrations for new version of TCI’s Loan Origination Solution - <em>Decision&nbsp;Lender&nbsp;4x</em>",
+          "description": [
+            "Developing new version of TCI’s Loan Origination Solution - <em>Decision&nbsp;Lender&nbsp;4x</em><br/>",
+            "Responsibility includes design and implementation of business logic, data&nbsp;models, ",
+            "user interfaces and integration with various third-party services</br>"
+          ],
           "tech": [
             "Java 8",
             "Angular JS",

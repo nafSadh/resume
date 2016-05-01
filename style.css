@@ -43,6 +43,7 @@
     .ns7r h2 { margin-top:.3em; margin-bottom:.2em; }
     .ns7r h2.section-heading span { display:block; }
     .ns7r h4 { display:inline; }
+    .ns7r .time-period{color: #666;}
     .ns7r .list-group { margin-bottom:3px; }
     .sidebar {
         background:#eee !important;
@@ -50,7 +51,7 @@
     }
     .side-section h3.section-head { margin-bottom:0; margin-top: .5em;}
     .ns7r footer {
-        margin:40px -8px 4px -8px;
+        margin:45px -8px 4px -8px;
         background-color:#ddd !important;
         border:8px solid #ddd;
     }
@@ -66,7 +67,7 @@
     }
 }
 
-@media screen and (max-width: 979px) {
+@media screen and (max-width: 999px) {
     .ns7r.container {
         padding: 1em;
         margin: 1em;
@@ -82,7 +83,7 @@
         text-align: left;
     }
 }
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 1000px) {
     body {
         background: #444;
     }
@@ -140,12 +141,7 @@
 }
 /* fonts by item */
 @media all {
-    .ns7r { font-size:14px; }
-    .ns7r h2 { font-size:175%; }
-    .ns7r h4 { font-size:100%; font-weight:700; }
-    .sidebar {  }
-    .sidebar h3 { font-size:105%;  }
-    .ns7r footer { font-size:90%; }
+
 }
 /* individual styles */
 @media all {
