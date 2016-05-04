@@ -131,7 +131,7 @@
         },
         {
           "type": "responsibility",
-          "description": "As part of DSP project ported μC/OS-II for custom BSP, ported Web-P for Samsung’s Reconfigurable Processor, developed image code",
+          "description": "As part of DSP project ported μC/OS-II for custom BSP, ported Web-P for Samsung’s Reconfigurable Processor, developed image codec",
           "tech": [
             "C",
             "C++"
