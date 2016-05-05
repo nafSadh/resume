@@ -49,6 +49,7 @@
 }
 code {
   font-family: Consolas, 'Source Code Pro', monospace;
+  font-size: auto;
 }
 body {
   font-family: 'Lora', sans-serif;
