@@ -180,7 +180,7 @@
 									<div class="row" ng-repeat="degree in ed.degree">
 										<div class="col-md-8">
 											<span class="text-primary degree">{{ degree.title }}</span>
-											<small class="text-muted cgpa">(CGPA:{{degree.cgpa}})</small>
+											<small class="text-muted cgpa" ng-if="degree.cgpa!=undefined">(CGPA:{{degree.cgpa}})</small>
 										</div>
 										<div class="col-md-4 text-right time-period">
 											<span class="degree-period" ng-if="degree.time.since!=undefined">
