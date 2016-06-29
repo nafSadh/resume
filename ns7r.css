@@ -132,12 +132,3 @@
 .ns7r .profile-pic{
     display: none;
 }
-
-.ns7r header:hover .profile-pic{
-    display: block;
-    margin-left: -140px;
-    margin-bottom: -128px;
-    border-radius: 64px;
-    border: 4px solid #eee;
-    box-shadow:0 0 1px #000;
-}
