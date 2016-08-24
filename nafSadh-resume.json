@@ -39,7 +39,7 @@
 					"tech": ["Java 8", "Angular JS", "REST", "SQL"]
 				}, {
 					"type": "responsibility",
-					"description": "Developed and maintained <em>Decisions Lender v3.5</em> for existing and new clients"
+					"description": "Developed and maintained <em>Decision Lender v3.5</em> for existing and new clients"
 				}
 			]
 		},
@@ -201,6 +201,6 @@
 			"url": ["http://slidesha.re/nafSlides"]
 		}
 	],
-	"dateUpdated": "Apr 25, 2016",
+	"dateUpdated": "Aug 24, 2016",
 	"hosted": "http://nafSadh.com/Resume"
 }
