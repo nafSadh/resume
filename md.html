@@ -1,22 +1,54 @@
 <html>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script language="javascript">
-    function combine(lines) {
-        var str = ''
-        for (var line in lines) {
-            str += lines + '\n'
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script language="javascript">
+        var NL ='\n<br/>'
+        function combine(items, delim) {
+            var str = '';
+            for (var i=0;i<items.length-1;i++) {
+                str += items[i] + delim
+            }
+            str+= items[i];
+            return str;
         }
-    }
 
-    $(function () {
-        $.get("resume.json", function (data) {
-            var resume = JSON.parse(data);
-            var markdown = resume.name + "===============================\n"
-            markdown += combine(resume.highlights)
-            $('#content-markdown').html(markdown)
+        function addressLine(a) {
+            return ''+a.street+', '+a.city+', '+ a.state+' '+a.postCode
+        }
+
+        function experience(e) {
+            var str ='';
+            str+=e.company+NL;
+            str+=e.location+NL;
+
+            return str;
+        }
+
+        $(function () {
+            console.log('haha')
+            $.get("resume.json", function (data) {
+                console.log(data);
+                var resume = data;
+                var markdown = resume.name + NL+"==============="+NL
+                markdown += combine(resume.highlights,NL)+NL+NL;
+                markdown+= addressLine(resume.address)+NL;
+                markdown+= resume.phone+NL;
+                markdown+= resume.email+NL;
+                markdown+= resume.website+NL+NL;
+                markdown+= 'Programming: '+combine(resume.skills.programming,', ')+NL;
+                markdown+= 'Other: '+combine(resume.skills.other,', ')+NL;
+
+                markdown+=NL+'Experience'+NL+'-----------'
+                for(e of resume.experience){
+                    markdown+=NL+experience(e)+NL
+                }
+
+                $('#content-markdown').html(markdown)
+
+            });
         });
-    });
-</script>
+    </script>
+</head>
 <body>
 <div id="content-markdown"></div>
 </body>
