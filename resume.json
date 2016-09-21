@@ -53,7 +53,8 @@
           "description": [
             "Developing new version of TCI’s Loan Origination Solution - <em>Decision&nbsp;Lender&nbsp;4x</em><br/>",
             "Responsibility includes design and implementation of business logic, data&nbsp;models, ",
-            "user interfaces and integration with various third-party services</br>"
+            "user interfaces and integration with various third-party services including ACH payment, Car valuations etc. ",
+            "Building a reporting toolkit that enables clients to design reports to meet their specific need."
           ],
           "tech": [
             "Java 8",
@@ -349,6 +350,6 @@
       ]
     }
   ],
-  "dateUpdated": "Jun 24, 2016",
+  "dateUpdated": "Sep 12, 2016",
   "hosted": "http://nafSadh.com/Resume"
 }

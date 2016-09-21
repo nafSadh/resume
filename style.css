@@ -118,6 +118,9 @@
         display: none;
     }
 
+    .ns7r footer {
+        margin: 65px -8px 4px -8px;
+    }
     a[href].print-link::after {
         display: inline !important;
         content: " (" attr(href) ")";
