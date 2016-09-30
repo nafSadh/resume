@@ -94,7 +94,7 @@
 		<div class="left-border col-md-1"></div>
 		<div class="content col-md-7">
 			<header>
-				<img class="profile-pic" src="{{ _.avatar }}" width="128px"/>
+				<img ng-if="_.avatar" class="profile-pic" src="{{ _.avatar }}" width="128px"/>
 				<h1 class="name">{{ _.name }}</h1>
 				<div class="highlights">
 					<span ng-repeat="highlight in _.highlights" ng-bind-html-compile="highlight"></span>
