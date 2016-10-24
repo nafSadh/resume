@@ -8,7 +8,7 @@ MS in CS from Stony Brook / B.Sc. in CSE from KUET
 Mineola, NY 11501
 
 +1 (631) 703-8451
-khan@nafsadh.com
+name AT website
 http://nafSadh.com
 
 Highlights
