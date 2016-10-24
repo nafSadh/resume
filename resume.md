@@ -1,7 +1,7 @@
 
 Khan ‘Sadh’ Mostafa
 ===================
-Software Engineer at Teledata Communication, Inc.  
+Software Engineer at Teledata Communications, Inc.  
 MS in CS from Stony Brook / B.Sc. in CSE from KUET  
 5 years in industry  
 
