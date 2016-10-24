@@ -54,7 +54,7 @@
       };
 
       $scope.nl = function withLineBreak(text) {
-        return text + '<br/>'
+        return text + '&nbsp;&nbsp;<br/>'
       };
 
       $scope.csl = function commaSepList(list) {
@@ -80,8 +80,8 @@
   </script>
   <style>
     h1, h2, h3, h4, h5 {
-      padding-bottom: 0;
-      margin-bottom: 0;
+      padding: 0;
+      margin: 0;
     }
   </style>
 </head>
@@ -124,7 +124,7 @@
       </div>
       <div>
         <br/>
-        <h3 class="section-heading"><span>Highlights</span><br/><span ng-bind-html="ul('Highlights','=')"></span></h3>
+        <h2 class="section-heading"><span>Highlights</span><br/><span ng-bind-html="ul('Highlights','=')"></span></h2>
         <div class="skills row">
           <div class="col-md-12">
 						<span class="main-skills">*
@@ -146,6 +146,7 @@
       </div>
       <div class="panel">
         <div class="panel-heading">
+          <br/>
           <h2 class="section-heading">
             <span>Experience</span><br/><span ng-bind-html="ul('Experience','=')"></span>
           </h2>
@@ -155,7 +156,7 @@
             <div class="list-group-item experience" ng-repeat="job in _.experience">
               <div class="card">
                 <div class="card-heading">
-                  <i class="fa fa-li fa-2x fa-briefcase silver" aria-hidden="true"></i>
+                  <br/>
                   <h4 class="card-title">
                     {{job.company}}
                     <br/><span ng-bind-html="ul(job.company,'-')"></span>
@@ -192,6 +193,7 @@
       </div>
       <div class="panel">
         <div class="panel-heading">
+          <br/>
           <h2 class="section-heading"><span>Education</span><br/><span ng-bind-html="ul('Education','=')"></span></h2>
         </div>
         <div class="panel-body">
@@ -199,6 +201,7 @@
             <div class="list-group-item education" ng-repeat="ed in _.education">
               <div class="card">
                 <div class="card-heading">
+                  <br/>
                   <h4 class="card-title">
                     {{ed.institution}}
                     <br/><span ng-bind-html="ul(ed.institution,'-')"></span>
@@ -243,29 +246,32 @@
         </div>
       </div><!--  content ends -->
       <div class="sidebar col-md-3">
-
+        <br/>
+        <h2 class="section-heading"><span>Miscellaneous</span><br/><span ng-bind-html="ul('Miscellaneous','=')"></span>
+        </h2>
         <div class="side-section row" ng-repeat="section in _.sections">
           <div class="col-md-12">
             <div class="panel">
               <div class="panel-heading">
-                <h3 class="section-head text-primary">{{section.title}}</h3>
+                <h3 class="section-head text-primary">### {{section.title}}</h3>
               </div>
               <div class="panel-body">
-                <ul class="list-group" ng-repeat="info in section.info">
-                  <li class="list-group-item" ng-bind-html-compile="info.description"></li>
-                  <li class="list-group-item">
-                  </li>
-                </ul>
+                <div class="list-group" ng-repeat="info in section.info">*
+                  <span class="list-group-item" ng-bind-html-compile="info.description"></span>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <footer>
+          <br/>
+          <h3 class="section-heading"><span>Links</span><br/><span ng-bind-html="ul('Links','-')"></span></h3>
           <div ng-repeat="link in _.links" class="link">
             <i ng-if="link.fa!=undefined" class="fa {{ link.fa }}"></i>
             <span>{{ link.for }}</span>:
-            <span class="url" ng-repeat="url in link.url"><a href="{{ url }}">{{ url }}</a></span>
+            <span class="url" ng-repeat="url in link.url"><a href="{{ url }}">{{ url }}</a>&nbsp;&nbsp;</span>
           </div>
+          <br/>
           <div class="stamp">
             Updated on {{ _.dateUpdated }}, available online:
             <a href="{{ _.hosted }}">{{ _.hosted }}</a>

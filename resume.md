@@ -1,25 +1,24 @@
+
 Khan ‘Sadh’ Mostafa
 ===================
-Software Engineer at Teledata Communication, Inc.
-MS in CS from Stony Brook / B.Sc. in CSE from KUET
-5 years in industry
+Software Engineer at Teledata Communication, Inc.  
+MS in CS from Stony Brook / B.Sc. in CSE from KUET  
+5 years in industry  
 
 190 Mineola Blvd 5L
 Mineola, NY 11501
-
 +1 (631) 703-8451
-name AT website
+firstName AT website
 http://nafSadh.com
 
 Highlights
 ==========
-* Languages: JavaCC++
-* Familiar with: C#PythonSQLJavaScriptAngular JS etc.
+* Languages: Java, C, C++
+* Familiar with: C#, Python, SQL, JavaScript, Angular JS etc.
 * Talked on “Research in the Computing Industry” at CSE Festival, KUET (Jun 2012)
 * Awarded “Icon of the Month” by Samsung R&D Institute – Bangladesh
 * 11th place on ACM ICPC Dhaka Regional programming contest 2007
 * Showcased project “Smart Home Technology” at BASIS SoftExpo, Dhaka 2008
-
 
 Experience
 ==========
@@ -31,7 +30,7 @@ Software Engineer
 Feb 2015 -
 * Developing new version of TCI’s Loan Origination Solution - Decision Lender 4x
 Responsibility includes design and implementation of business logic, data models, user interfaces and integration with various third-party services including ACH payment, Car valuations etc. Building a reporting toolkit that enables clients to design reports to meet their specific need. (Java 8) (Angular JS) (REST) (SQL)
-* Developed and maintained Decisions Lender v3.5 for existing and new clients
+* Developed and maintained Decision Lender v3.5 for existing and new clients
 
 Research Foundation for SUNY
 ----------------------------
@@ -55,7 +54,6 @@ Jun 2010 - Feb 2013
 * Participated in development of custom system software for feature phones (C)
 * Developed smart phone apps for Samsung’s bada platform (C++)
 
-
 Education
 =========
 
@@ -64,7 +62,7 @@ Stony Brook University
 Stony Brook, NY
 MS Computer Science (CGPA:3.72/4)
 Aug 2013 - Dec 2014
-* Key Courses: DatabaseData MiningComputer GraphicsAnalysis of AlgorithmsOperating SystemsBrain and Memory ModelingArtificial IntelligenceLogic in CS
+* Key Courses: Database, Data Mining, Computer Graphics, Analysis of Algorithms, Operating Systems, Brain and Memory Modeling, Artificial Intelligence, Logic in CS
 * Designed tool for opinion mining which leverages entity-keyword bi-graph built from analyzing social network feed (C#)
 * Implemented a procedural watercolor engine to recreate real-time watercolor effects (C++) (OpenGL)
 * Added XML parser for BOSS (brain model simulation tool) INIT module to feed brain model parameters as XML input (C++)
@@ -79,25 +77,24 @@ Jan 2006 - Jun 2010
 * Developed a Smart home technology, which includes a centrally controlled local system of devices and sensors that actuates smartly upon perceptions. The control unit interfaces with local GUI as well as internet and cellular networks
 (Java) (ASM) (Microcontroller)
 
-
+Miscellaneous
+=============
 ### Leadership
-- IEEE Student Branch KUET, General Secretary, (2008-2009)
-- Fazlul Haque Hall Committee, KUET - General Secretary (2008-2009) & Asst. Gen. Secretary (2007-2008)
-
+* IEEE Student Branch KUET
+General Secretary, (2008-2009)
+* Fazlul Haque Hall Committee, KUET - General Secretary (2008-2009) & Asst. Gen. Secretary (2007-2008)
 ### Involvement
-- Publisher, lekhalikhi.com - Bengali Literary Community
-
+* Publisher, lekhalikhi.com - Bengali Literary Community
 ### Personal Projects
-TuneTour.me, WaqtScope, Sonnivo, LikhonPad, NLParse
-and more http://nafSadh.com/projects
+* TuneTour.me, WaqtScope, Sonnivo, LikhonPad, NLParse and more
+http://nafSadh.com/projects
 
 Links
-=====
-GitHub: http://github.com/nafSadh
-Profiles: http://careers.stackoverflow.com/sadhhttp://bd.linkedin.com/in/nafsadh
-Blog: http://ins.nafSadh.com
-Slides: http://slidesha.re/nafSlides
-
+-----
+GitHub: http://github.com/nafSadh  
+Profiles: http://careers.stackoverflow.com/sadh  http://bd.linkedin.com/in/nafsadh  
+Blog: http://ins.nafSadh.com  
+Slides: http://slidesha.re/nafSlides  
 
 Updated on Sep 12, 2016, available online: http://nafSadh.com/Resume
 Contact for further information
