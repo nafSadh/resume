@@ -105,19 +105,22 @@
             <div>
               <i class="fa-li fa fa-map-marker" aria-hidden="true"></i>
               <address ng-bind-html-compile="renderAddress(_.address)"></address>
+              &nbsp;&nbsp;
             </div>
             <div>
               <abbr title="Phone"><i class="fa-li fa fa-phone"></i></abbr>
-              <a href="{{ _.telUrl }}">{{ _.phone }}</a>
+              <a href="{{ _.telUrl }}">{{ _.phone }}</a>&nbsp;&nbsp;
             </div>
             <div>
               <abbr title="email"><i class="fa-li fa fa-envelope-o"></i></abbr>
               <a ng-if="!psstEmail" href="mailto:{{ _.email }}">{{ _.email }}</a>
               <a ng-if="psstEmail" href="mailto:{{ psstEmail }} ">{{ psstEmail }}</a>
+              &nbsp;&nbsp;
             </div>
             <div>
               <abbr title="website"><i class="fa-li fa fa-globe"></i></abbr>
               <a href="{{_.website}}">{{ _.website }}</a>
+              &nbsp;&nbsp;
             </div>
           </div>
         </div>
@@ -161,21 +164,20 @@
                     {{job.company}}
                     <br/><span ng-bind-html="ul(job.company,'-')"></span>
                   </h4>
-                  <span class="place-name">{{job.location }}</span>
+                  <span class="place-name">{{job.location }}&nbsp;&nbsp;</span>
                   <div class="row" ng-repeat="role in job.roles">
                     <div class="col-md-6">
-                      <span class="text-primary job-role">{{ role.title }}</span>
-                    </div>
-                    <div class="col-md-6 text-right time-period">
+                      <b class="text-primary job-role">**{{ role.title }}** </b>
 											<span class="job-period" ng-if="role.time.since!=undefined">
-												{{ role.time.since }}
+												({{ role.time.since }}
 												- <i ng-if="role.time.current" class="fa fa-spinner fa-pulse fa-fw"
                              uib-tooltip="current" print-alt="now"></i>
-												{{ role.time.until}}
+												{{ role.time.until}})
 											</span>
                       <span class="job-period" ng-if="role.time.period!=undefined">
-												{{ role.time.period }}
+												({{ role.time.period }})
 											</span>
+                      &nbsp;&nbsp;
                     </div>
                   </div>
                 </div>
@@ -206,22 +208,21 @@
                     {{ed.institution}}
                     <br/><span ng-bind-html="ul(ed.institution,'-')"></span>
                   </h4>
-                  <span class="place-name">{{ed.location }}</span>
+                  <span class="place-name">{{ed.location }}&nbsp;&nbsp;</span>
                   <div class="row" ng-repeat="degree in ed.degree">
                     <div class="col-md-8">
-                      <span class="text-primary degree">{{ degree.title }}</span>
+                      <b class="text-primary degree">**{{ degree.title }}** </b>
                       <small class="text-muted cgpa" ng-if="degree.cgpa!=undefined">(CGPA:{{degree.cgpa}})</small>
-                    </div>
-                    <div class="col-md-4 text-right time-period">
 											<span class="degree-period" ng-if="degree.time.since!=undefined">
-												{{ degree.time.since }}
+												({{ degree.time.since }}
 												- <i ng-if="degree.time.current" class="fa fa-spinner fa-pulse fa-fw"
                              uib-tooltip="current"></i>
-												{{ degree.time.until}}
+												{{ degree.time.until}})
 											</span>
                       <span class="degree-period" ng-if="degree.time.period!=undefined">
-												{{ degree.time.period }}
+												({{ degree.time.period }})
 											</span>
+                      &nbsp;&nbsp;
                     </div>
                   </div>
                 </div>
