@@ -1,10 +1,10 @@
 {
   "name": "Khan ‘Sadh’ Mostafa",
-  "avatar":"http://www.gravatar.com/avatar/b3fd795f62899ea17a66ebb4e8bddbd8?s=512&d=mm&r=g",
+  "avatar": "http://www.gravatar.com/avatar/b3fd795f62899ea17a66ebb4e8bddbd8?s=512&d=mm&r=g",
   "highlights": [
     "Software Engineer at Teledata Communications, Inc.",
     "MS in <abbr data-toggle='tooltip' title='Computer Science'>CS</abbr> from Stony Brook / B.Sc. in <abbr data-toggle='tooltip' title='Computer Science and Engineering'>CSE</abbr>  from KUET",
-    "5 years in industry"
+    "5+ years in industry"
   ],
   "address": {
     "street": "190 Mineola Blvd 5L",
@@ -34,7 +34,7 @@
   "experience": [
     {
       "company": "Teledata Communications, Inc.",
-      "about": "<img src='http://nafsadh.com/img/tci.png' width='32px'/>TCI builds and provides SaaS for financial institutions. It's flagship product is <em>Decision Lender</em> - a &ldquo;Loan Origination Solution&rdquo; for Credit Unions and banks.",
+      "about": "<img src='http://nafsadh.com/img/tci.png' width='32px'/>TCI builds and provides SaaS for financial institutions. It's flagship product is <em>Decision Lender</em> - a &ldquo;Loan Origination Solution&rdquo; for banks and credit unions.",
       "location": "Islandia, NY",
       "mapUrl": "https://goo.gl/maps/H4UB52cWqMp",
       "roles": [
@@ -51,10 +51,11 @@
         {
           "type": "responsibility",
           "description": [
-            "Developing new version of TCI’s Loan Origination Solution - <em>Decision&nbsp;Lender&nbsp;4x</em><br/>",
-            "Responsibility includes design and implementation of business logic, data&nbsp;models, ",
-            "user interfaces and integration with various third-party services including ACH payment, Car valuations etc. ",
-            "Building a reporting toolkit that enables clients to design reports to meet their specific need."
+            "Developing new version of TCI’s Loan Origination Solution - ",
+            "<em><a href='http://tcicredit.com/what-is-decisionlender/'>Decision&nbsp;Lender&nbsp;4x</a></em><br/>",
+            "Responsibility includes design and implementation of business logic, data&nbsp;models, user interfaces ",
+            "and integration with various 3<sup>rd</sup> party services including payment systems, vehicle valuation sources etc.",
+            "Building a reporting toolkit that enables clients to design custom reports."
           ],
           "tech": [
             "Java 8",
@@ -65,7 +66,7 @@
         },
         {
           "type": "responsibility",
-          "description": "Developed and maintained <em>Decision Lender v3.5</em> for existing and new clients"
+          "description": "Developed and maintained <em>Decision Lender v3.5</em> for new and existing clients"
         }
       ]
     },
@@ -350,6 +351,6 @@
       ]
     }
   ],
-  "dateUpdated": "Sep 12, 2016",
+  "dateUpdated": "Jan 24, 2017",
   "hosted": "http://nafSadh.com/Resume"
 }
