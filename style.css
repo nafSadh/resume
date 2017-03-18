@@ -51,7 +51,7 @@
     }
     .side-section h3.section-head { margin-bottom:0; margin-top: .5em;}
     .ns7r footer {
-        margin:32px -8px 4px -8px;
+        margin:12px -8px 4px -8px;
         background-color:#ddd !important;
         border:8px solid #ddd;
     }
@@ -118,6 +118,10 @@
         display: none;
     }
 
+    .ns7r footer {
+        margin: 38px -8px 4px -8px;
+    }
+
     a[href].print-link::after {
         display: inline !important;
         content: " (" attr(href) ")";
@@ -140,6 +144,10 @@
     .fa[print-alt]:after {
         display: inline-flex;
         content: attr(print-alt);
+    }
+    code{
+        background: #f9f2f4 !important
+        ;
     }
 }
 /* FONTS */

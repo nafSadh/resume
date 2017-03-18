@@ -55,7 +55,7 @@
             "<em><a href='http://tcicredit.com/what-is-decisionlender/'>Decision&nbsp;Lender&nbsp;4x</a></em><br/>",
             "Responsibility includes design and implementation of business logic, data&nbsp;models, user interfaces ",
             "and integration with various 3<sup>rd</sup> party services including payment systems, vehicle valuation sources etc. ",
-            "Building a reporting toolkit that enables clients to design custom reports."
+            "Building a reports tool that enables clients to design custom reports. "
           ],
           "tech": [
             "Java 8",
@@ -361,6 +361,6 @@
       ]
     }
   ],
-  "dateUpdated": "Jan 24, 2017",
+  "dateUpdated": "Mar 17, 2017",
   "hosted": "http://nafSadh.com/Resume"
 }
