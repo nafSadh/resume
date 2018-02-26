@@ -4,7 +4,7 @@
   "highlights": [
     "Software Engineer at Teledata Communications, Inc.",
     "MS in <abbr data-toggle='tooltip' title='Computer Science'>CS</abbr> from Stony Brook / B.Sc. in <abbr data-toggle='tooltip' title='Computer Science and Engineering'>CSE</abbr>  from KUET",
-    "5+ years in industry"
+    "6+ years in industry"
   ],
   "address": {
     "street": "190 Mineola Blvd 5L",
@@ -61,7 +61,7 @@
             "Java 8",
             "Angular JS",
             "REST",
-            "SQL"
+            "MS SQL"
           ]
         },
         {
@@ -361,6 +361,6 @@
       ]
     }
   ],
-  "dateUpdated": "Mar 17, 2017",
+  "dateUpdated": "Feb 21, 2018",
   "hosted": "http://nafSadh.com/Resume"
 }
