@@ -83,11 +83,15 @@
 						stateTagOpen = "<abbr data-toggle='tooltip' title='" + _a.stateFull + "'>"
 						stateTagClose = "</abbr>"
 					}
-					return _a.street + "<br/>" +
-								_a.city + ", " +
-								stateTagOpen + _a.state + stateTagClose
-								+ " "
-								+ _a.postCode;
+					let streetline = '';
+					if(_.street != undefined){
+					    streetline = _a.street + "<br/>";
+					}
+					return streetline +
+						_a.city + ", " +
+						stateTagOpen + _a.state + stateTagClose
+						+ " "
+						+ _a.postCode;
 				}
 			}
 		})
