@@ -74,14 +74,14 @@
 				} else {
 					return text
 				}
-			}
+			};
 
 			$scope.renderAddress = function (_a) {
 				if (_a != undefined) {
 					var stateTagOpen, stateTagClose;
 					if (_a.stateFull != undefined) {
-						stateTagOpen = "<abbr data-toggle='tooltip' title='" + _a.stateFull + "'>"
-						stateTagClose = "</abbr>"
+						stateTagOpen = "<abbr data-toggle='tooltip' title='" + _a.stateFull + "'>";
+						stateTagClose = "</abbr>";
 					}
 					let streetline = '';
 					if(_a.street != undefined){
@@ -93,7 +93,7 @@
 						+ " "
 						+ _a.postCode;
 				}
-			}
+			};
 		})
 	</script>
 </head>

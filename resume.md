@@ -2,13 +2,12 @@ Khan ‘Sadh’ Mostafa
 ===================
 Software Engineer at Teledata Communications, Inc.  
 MS in CS from Stony Brook / B.Sc. in CSE from KUET  
-5+ years in industry  
+7+ years in industry  
 
-190 Mineola Blvd 5L
 Mineola, NY 11501
   
 +1 (631) 703-8451  
-firstName AT website   
+<name>at<website>   
 http://nafSadh.com   
 
 Highlights
@@ -27,8 +26,8 @@ Teledata Communications, Inc.
 -----------------------------
 Islandia, NY  
 **Software Engineer** (Feb 2015 - )   
-* Developing new version of TCI’s Loan Origination Solution - Decision Lender 4x
-Responsibility includes design and implementation of business logic, data models, user interfaces and integration with various 3rd party services including payment systems, vehicle valuation sources etc. Building a reports tool that enables clients to design custom reports. (Java 8) (Angular JS) (REST) (SQL)
+* Developing new version of TCI’s Loan Origination Solution - [Decision Lender 4x](http://tcicredit.com/what-is-decisionlender)
+Responsibility includes design and implementation of business logic, data models, user interfaces and integration with various 3rd party services including payment systems, vehicle valuation sources etc. Building a reports tool that enables clients to design custom reports. (Java 8) (Angular JS) (REST) (MS SQL)
 * Developed and maintained Decision Lender v3.5 for new and existing clients
 
 Research Foundation for SUNY 
@@ -80,7 +79,7 @@ General Secretary, (2008-2009)
 ### Involvement
 * Publisher, lekhalikhi.com - Bengali Literary Community
 ### Keyboard Layout
-* Developed 'Sonnivo' for Bengali
+* Developed ['Sonnivo'](http://nafsadh.com/sonnivo) for Bengali
 ### Personal Projects
 * TuneTour.me, WaqtScope, LikhonPad, NLParse and more
 http://nafSadh.com/projects
@@ -88,9 +87,9 @@ http://nafSadh.com/projects
 Links
 -----
 GitHub: http://github.com/nafSadh  
-Profiles: http://careers.stackoverflow.com/sadh   http://bd.linkedin.com/in/nafsadh  
+Profile: http://bd.linkedin.com/in/nafsadh  
 Blog: http://ins.nafSadh.com  
 Slides: http://slidesha.re/nafSlides  
 
-Updated on Mar 17, 2017, available online: http://nafSadh.com/Resume 
+Updated on Aug 09, 2018, available online: http://re.sadh.me 
 Contact for further information
