@@ -141,7 +141,7 @@
         },
         {
           "type": "responsibility",
-          "description": "Developed localized system software for feature phones for specific markets",
+          "description": "Developed localized feature phone system software for target markets",
           "tech": [
             "C"
           ]
@@ -359,6 +359,6 @@
       ]
     }
   ],
-  "dateUpdated": "Aug 09, 2018",
+  "dateUpdated": "Oct 10, 2018",
   "hosted": "http://re.sadh.me"
 }
