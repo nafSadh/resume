@@ -322,8 +322,8 @@
       "info": [
         {
           "description": [
-            "TuneTour.me, WaqtScope, LikhonPad, NLParse and more<br/>",
-            "<a href='http://nafSadh.com/projects'>http://nafSadh.com/projects</a>"
+            "Liby.cat, TuneTour.me, WaqtScope, LikhonPad, NLParse and more<br/>",
+            "<a href='https://projects.nafSadh.com/'>projects.nafSadh.com</a>"
           ]
         }
       ]
@@ -341,7 +341,7 @@
       "for": "Profile",
       "fa": "fa-user",
       "url": [
-        "http://bd.linkedin.com/in/nafsadh"
+        "https://linkedin.com/in/nafsadh"
       ]
     },
     {
@@ -349,13 +349,6 @@
       "fa": "fa-wordpress",
       "url": [
         "http://ins.nafSadh.com"
-      ]
-    },
-    {
-      "for": "Slides",
-      "fa": "fa-slideshare",
-      "url": [
-        "http://slidesha.re/nafSlides"
       ]
     }
   ],
