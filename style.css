@@ -65,6 +65,9 @@
     .silver.fa-2x {
         color:#eef;
     }
+    .ns7r abbr{
+        text-decoration: none;
+    }
 }
 
 @media screen and (max-width: 999px) {
