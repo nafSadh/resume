@@ -56,17 +56,17 @@
 		ns7rApp.controller('ns7rCtrl', function ($scope, $http, $location) {
 			$scope.location = $location;
 			$scope.$watch('location.search()', function () {
-				$scope.psstEmail = ($location.search()).psstEmail;
+				$scope.withemail = ($location.search()).withemail;
 			}, true);
 			$http.get('resume.json')
 						.then(function (r) {
-							$scope._ = r.data
+							$scope._ = r.data;
 							applyBootstrapJS()
-						})
+						});
 
 			$scope.mlt = function mlt(text) {
 				if (angular.isArray(text)) {
-					var t = ''
+					var t = '';
 					for (var i = 0; i < text.length; i++) {
 						t += text[i]
 					}
@@ -77,14 +77,14 @@
 			};
 
 			$scope.renderAddress = function (_a) {
-				if (_a != undefined) {
+				if (_a !== undefined) {
 					var stateTagOpen, stateTagClose;
-					if (_a.stateFull != undefined) {
+					if (_a.stateFull !== undefined) {
 						stateTagOpen = "<abbr data-toggle='tooltip' title='" + _a.stateFull + "'>";
 						stateTagClose = "</abbr>";
 					}
 					let streetline = '';
-					if(_a.street != undefined){
+					if(_a.street !== undefined){
 					    streetline = _a.street + "<br/>";
 					}
 					return streetline +
@@ -242,8 +242,8 @@
 						</li>
 						<li>
 							<abbr title="email"><i class="fa-li fa fa-envelope-o"></i></abbr>
-							<span ng-if="!psstEmail">{{ _.email}}</span>
-							<a ng-if="psstEmail" href="mailto:{{ psstEmail }} ">{{ psstEmail }}</a>
+							<span ng-if="!withemail">{{ _.email}}</span>
+							<a ng-if="withemail" href="mailto:{{ withemail }} ">{{ withemail }}</a>
 						</li>
 						<li>
 							<abbr title="website"><i class="fa-li fa fa-globe"></i></abbr>
