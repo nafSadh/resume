@@ -49,9 +49,9 @@
         background:#eee !important;
         border-top:4px solid #ccc;
     }
-    .side-section h3.section-head { margin-bottom:0; margin-top: .5em;}
+    .side-section h3.section-head { margin-bottom:0; }
     .ns7r footer {
-        margin:96px -8px 4px -8px;
+        margin:44px -8px 4px -8px;
         background-color:#ddd !important;
         border:8px solid #ddd;
     }
@@ -122,7 +122,7 @@
     }
 
     .ns7r footer {
-        margin: 96px -8px 4px -8px;
+        margin: 44px -8px 4px -8px;
     }
 
     a[href].print-link::after {
