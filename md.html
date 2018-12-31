@@ -273,7 +273,7 @@
           <h3 class="section-heading"><span>Links</span><br/><span ng-bind-html="ul('Links','-')"></span></h3>
           <div ng-repeat="link in _.links" class="link">
             <i ng-if="link.fa!=undefined" class="fa {{ link.fa }}"></i>
-            <span>{{ link.for }}</span>:
+            <span ng-if="link.for">{{ link.for }}:</span>
             <span class="url" ng-repeat="url in link.url"><a href="{{ url }}">{{ url }}</a>&nbsp;&nbsp; </span>
           </div>
           <br/>

@@ -56,8 +56,6 @@
     margin: 0;
 }
 
-
-
 .ns7r .sidebar .list-group {
     margin: 0;
 }
@@ -82,7 +80,7 @@
 }
 
 .dim {
-    color: #eee;
+    color: #bbc;
 }
 
 .info-address {
@@ -131,4 +129,8 @@
 
 .ns7r .profile-pic{
     display: none;
+}
+
+.card-heading .fa-li {
+    margin-top: .2em;
 }

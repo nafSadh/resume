@@ -2,22 +2,23 @@ Khan ‘Sadh’ Mostafa
 ===================
 Software Engineer at Teledata Communications, Inc.  
 MS in CS from Stony Brook / B.Sc. in CSE from KUET  
-7+ years in industry  
+8 years in industry
 
 Mineola, NY 11501
   
 +1 (631) 703-8451  
-<name>at<website>   
+name at website   
 http://nafSadh.com   
 
 Highlights
 ==========
 * Languages: Java, C, C++ 
-* Familiar with: C#, Python, SQL, JavaScript, Angular JS etc.
+* Familiar with: Python, SQL, JavaScript, Angular JS, C# etc.
 * Talked on “Research in the Computing Industry” at CSE Festival, KUET (Jun 2012)
 * Awarded “Icon of the Month” by Samsung R&D Institute – Bangladesh
 * 11th place on ACM ICPC Dhaka Regional programming contest 2007
 * Showcased project “Smart Home Technology” at BASIS SoftExpo, Dhaka 2008
+
 
 Experience
 ==========
@@ -25,8 +26,8 @@ Experience
 Teledata Communications, Inc. 
 -----------------------------
 Islandia, NY  
-**Software Engineer** (Feb 2015 - )   
-* Developing new version of TCI’s Loan Origination Solution - [Decision Lender 4x](http://tcicredit.com/what-is-decisionlender)
+**Software Engineer** (Feb 2015 - present)   
+* Developing new version of TCI’s Loan Origination Solution - Decision Lender 4x
 Responsibility includes design and implementation of business logic, data models, user interfaces and integration with various 3rd party services including payment systems, vehicle valuation sources etc. Building a reports tool that enables clients to design custom reports. (Java 8) (Angular JS) (REST) (MS SQL)
 * Developed and maintained Decision Lender v3.5 for new and existing clients
 
@@ -46,8 +47,9 @@ Dhaka, Bangladesh
 (C#) (WPF) (C) (Linux)
 * Developed modules of a camera SoC verification tool based on μC/OS-II (C)
 * As part of DSP project ported μC/OS-II for custom BSP, ported Web-P for Samsung’s Reconfigurable Processor, developed image codec (C) (C++)
-* Participated in development of custom system software for feature phones (C)
+* Developed localized feature phone system software for target markets (C)
 * Developed smart phone apps for Samsung’s bada platform (C++)
+
 
 Education
 =========
@@ -70,6 +72,7 @@ Bangladesh
 * Developed a Smart home technology, which includes a centrally controlled local system of devices and sensors that actuates smartly upon perceptions. The control unit interfaces with local GUI as well as internet and cellular networks 
 (Java) (ASM) (Microcontroller)
 
+
 Miscellaneous
 =============
 ### Leadership
@@ -79,17 +82,16 @@ General Secretary, (2008-2009)
 ### Involvement
 * Publisher, lekhalikhi.com - Bengali Literary Community
 ### Keyboard Layout
-* Developed ['Sonnivo'](http://nafsadh.com/sonnivo) for Bengali
+* Developed 'Sonnivo' for Bengali
 ### Personal Projects
-* TuneTour.me, WaqtScope, LikhonPad, NLParse and more
-http://nafSadh.com/projects
+* Liby.cat, TuneTour.me, WaqtScope, LikhonPad, NLParse and more
+projects.nafSadh.com
 
 Links
 -----
-GitHub: http://github.com/nafSadh  
-Profile: http://bd.linkedin.com/in/nafsadh  
-Blog: http://ins.nafSadh.com  
-Slides: http://slidesha.re/nafSlides  
+http://github.com/nafSadh  
+https://linkedin.com/in/nafsadh  
+http://ins.nafSadh.com  
 
-Updated on Aug 09, 2018, available online: http://re.sadh.me 
+Updated on Dec 25, 2018, available online: http://re.sadh.me 
 Contact for further information

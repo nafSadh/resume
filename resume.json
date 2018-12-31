@@ -23,11 +23,11 @@
       "C++"
     ],
     "other": [
-      "C#",
       "Python",
       "SQL",
       "JavaScript",
-      "Angular JS"
+      "Angular JS",
+      "C#"
     ]
   },
   "experience": [
@@ -41,7 +41,7 @@
           "title": "Software Engineer",
           "time": {
             "since": "Feb 2015",
-            "until": "",
+            "until": "present",
             "current": true
           }
         }
@@ -331,27 +331,24 @@
   ],
   "links": [
     {
-      "for": "GitHub",
-      "fa": "fa-github",
+      "fa": "fab fa-github",
       "url": [
         "http://github.com/nafSadh"
       ]
     },
     {
-      "for": "Profile",
-      "fa": "fa-user",
+      "fa": "fab fa-linkedin",
       "url": [
         "https://linkedin.com/in/nafsadh"
       ]
     },
     {
-      "for": "Blog",
-      "fa": "fa-wordpress",
+      "fa": "fas fa-pen-nib",
       "url": [
         "http://ins.nafSadh.com"
       ]
     }
   ],
-  "dateUpdated": "Oct 18, 2018",
+  "dateUpdated": "Dec 25, 2018",
   "hosted": "http://re.sadh.me"
 }
