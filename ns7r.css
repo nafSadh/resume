@@ -87,9 +87,9 @@
     padding-left: 8px;
 }
 
-.top-info .fa-li {
-    color: #888;
-}
+.charcoal-dim { color: #666; }
+.charcoal { color: #555; }
+.charcoal-grey { color: #333; }
 
 .skills div,
 .side-note div {

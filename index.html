@@ -204,12 +204,12 @@
 									<li class="list-group-item strip" ng-repeat="info in ed.info">
 										<i class="fa-li fa fa-angle-right silver" aria-hidden="true"></i>
 										<span ng-if="info.type=='key-courses'">
-											<i class="fas fa-book dim"></i> <em>Key Courses</em>:
+											<em>Key Courses</em>:
 											<span ng-repeat="course in info.courses" ng-bind-html-compile="course"
 														class="comma-sep-list"></span>
 										</span>
 										<span ng-if="info.type=='thesis'">
-											<i class="fas fa-scroll dim"></i> <em>Thesis</em>: <i class="fa fa-lightbulb-o"></i>
+											<em>Thesis</em>: <i class="fa fa-lightbulb-o"></i>
 										</span>
 										<span class="description" ng-bind-html-compile="mlt(info.description)"></span>
 										<code ng-repeat="key in info.tech">{{ key }}</code>
@@ -227,19 +227,19 @@
 				<div class="row info-address">
 					<ul class="fa-ul">
 						<li>
-							<i class="fa-li fas fa-map-marker-alt fa-sm" aria-hidden="true"></i>
+							<i class="fa-li fas fa-map-marker-alt fa-sm charcoal" aria-hidden="true"></i>
 							<address ng-bind-html-compile="renderAddress(_.address)"></address>
 						</li>
 						<li>
-							<abbr title="website"><i class="fa-li fas fa-home fa-sm"></i></abbr>
+							<abbr title="website"><i class="fa-li fas fa-home fa-sm charcoal"></i></abbr>
 							<a href="{{_.website}}">{{ _.website }}</a>
 						</li>
 						<li>
-							<abbr title="Phone"><i class="fa-li fas fa-phone fa-sm"></i></abbr>
+							<abbr title="Phone"><i class="fa-li fas fa-phone fa-sm charcoal"></i></abbr>
 							<a href="{{ _.telUrl }}">{{ _.phone }}</a>
 						</li>
 						<li>
-							<abbr title="email"><i class="fa-li fas fa-envelope fa-sm"></i></abbr>
+							<abbr title="email"><i class="fa-li fas fa-envelope fa-sm charcoal"></i></abbr>
 							<span ng-if="!withemail">{{ _.email}}</span>
 							<a ng-if="withemail" href="mailto:{{ withemail }} ">{{ withemail }}</a>
 						</li>
@@ -288,7 +288,7 @@
 			</div>
 			<footer>
 				<div ng-repeat="link in _.links" class="link">
-					<i ng-if="link.fa!=undefined" class="{{ link.fa }}"></i>
+					<i ng-if="link.fa!=undefined" class="{{ link.fa }} charcoal-grey"></i>
 					<span ng-if="link.for">{{ link.for }}:</span>
 					<span class="url" ng-repeat="url in link.url"><a href="{{ url }}">{{ url }}</a></span>
 				</div>
