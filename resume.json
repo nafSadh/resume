@@ -15,7 +15,7 @@
   "phone": "+1 (631) 703-8451",
   "telUrl": "tel:+16317038451",
   "email": "<name>at<website>",
-  "website": "http://nafSadh.com",
+  "website": "https://nafSadh.com",
   "skills": {
     "programming": [
       "Java",
@@ -50,11 +50,14 @@
         {
           "type": "responsibility",
           "description": [
-            "Developing new version of TCI’s Loan Origination Solution - ",
+            "Building new version of TCI’s Loan Origination SaaS- ",
             "<em><a href='http://tcicredit.com/what-is-decisionlender/'>Decision&nbsp;Lender&nbsp;4x</a></em><br/>",
-            "Responsibility includes design and implementation of business logic, data&nbsp;models, user interfaces ",
-            "and integration with various 3<sup>rd</sup> party services including payment systems, vehicle valuation sources etc. ",
-            "Building a reports tool that enables clients to design custom reports. "
+            "- Design, code and implement business logic, data models and user interfaces based on ",
+            "generic and client specific requirements for developing a RESTful SaaS catering to various lenders. ",
+            "This includes building core platform, vehicle valuation services, configurable report generation framework, ",
+            "various 3<sup>rd</sup> party integration etc.<br/>",
+            "- Since initial release, continuously enhancing and adding features to on-board lenders, ",
+            "while also collaborate with various teams within the org to cultivate better understanding of the product."
           ],
           "tech": [
             "Java 8",
@@ -84,9 +87,8 @@
       "info": [
         {
           "type": "responsibility",
-          "description": "Worked for CA Technologies at <abbr data-toggle='tooltip' title='Center of Excellence in Wireless and Information Technology'>CEWIT</abbr> as on campus internship during MS<br/>",
+          "description": "Worked for CA Technologies at <abbr data-toggle='tooltip' title='Center of Excellence in Wireless and Information Technology'>CEWIT</abbr> as on campus internship during MS",
           "tech": [
-            "Google Glass",
             "Java"
           ]
         }
@@ -116,7 +118,7 @@
       "info": [
         {
           "type": "responsibility",
-          "description": "Designed a host – target interaction protocol and developed control module with GUI for <abbr data-toggle='tooltip' title='Field-programmable gate array'>FPGA</abbr> and post-silicon SoC (System on Chip) verification platform<br/>",
+          "description": "Designed a host – target interaction protocol and developed control module with GUI for <abbr data-toggle='tooltip' title='Field-programmable gate array'>FPGA</abbr> and post-silicon SoC (System on Chip) verification platform",
           "tech": [
             "C#",
             "WPF",
@@ -333,7 +335,7 @@
     {
       "fa": "fab fa-github",
       "url": [
-        "http://github.com/nafSadh"
+        "https://github.com/nafSadh"
       ]
     },
     {
@@ -345,7 +347,7 @@
     {
       "fa": "fas fa-pen-nib",
       "url": [
-        "http://ins.nafSadh.com"
+        "https://ins.nafSadh.com"
       ]
     }
   ],
