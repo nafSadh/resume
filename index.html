@@ -130,9 +130,9 @@
 											popover-title="{{ job.company }}"
 											uib-popover-template="'jobTitlePopover.html'">
 										{{job.company}}
-									</h4>
+									</h4>&nbsp;
 									<a href="{{ job.mapUrl }}" target="_blank"><i
-												class="fas fa-map-marker-alt fa-sm dim"></i></a>&thinsp;<span
+												class="fas fa-map-marker-alt fa-sm dim"></i></a>&nbsp;<span
 											class="place-name">{{job.location }}</span>
 									<div class="row" ng-repeat="role in job.roles">
 										<div class="col-md-6">
@@ -181,9 +181,9 @@
 											popover-title="{{ ed.institution }}"
 											uib-popover-template="'edTitlePopover.html'">
 										{{ed.institution}}
-									</h4>
+									</h4>&nbsp;
 									<a href="{{ ed.mapUrl }}" target="_blank"><i
-												class="fas fa-map-marker-alt fa-sm dim"></i></a>&thinsp;<span
+												class="fas fa-map-marker-alt fa-sm dim"></i></a>&nbsp;<span
 											class="place-name">{{ed.location }}</span>
 									<div class="row" ng-repeat="degree in ed.degree">
 										<div class="col-md-8">
