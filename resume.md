@@ -2,13 +2,13 @@ Khan ‘Sadh’ Mostafa
 ===================
 Software Engineer at Teledata Communications, Inc.  
 MS in CS from Stony Brook / B.Sc. in CSE from KUET  
-8 years in industry
+8 years in industry  
 
 Mineola, NY 11501
   
 +1 (631) 703-8451  
-name at website   
-http://nafSadh.com   
+<name>at<website>   
+https://nafSadh.com   
 
 Highlights
 ==========
@@ -19,7 +19,6 @@ Highlights
 * 11th place on ACM ICPC Dhaka Regional programming contest 2007
 * Showcased project “Smart Home Technology” at BASIS SoftExpo, Dhaka 2008
 
-
 Experience
 ==========
 
@@ -27,29 +26,27 @@ Teledata Communications, Inc.
 -----------------------------
 Islandia, NY  
 **Software Engineer** (Feb 2015 - present)   
-* Developing new version of TCI’s Loan Origination Solution - Decision Lender 4x
-Responsibility includes design and implementation of business logic, data models, user interfaces and integration with various 3rd party services including payment systems, vehicle valuation sources etc. Building a reports tool that enables clients to design custom reports. (Java 8) (Angular JS) (REST) (MS SQL)
+* Building new version of TCI’s Loan Origination SaaS- Decision Lender 4x
+  - Design, code and implement business logic, data models and user interfaces based on generic and client specific requirements for developing a RESTful SaaS, catering to various lenders. This includes building core platform, vehicle valuation services, configurable report generation framework, various 3rd party integration etc.
+  - Since initial release, continuously enhancing and adding features to on-board clients, while also collaborate with various teams within the org to cultivate better understanding of the product. [Java 8, Angular JS, REST, MS SQL]
 * Developed and maintained Decision Lender v3.5 for new and existing clients
 
 Research Foundation for SUNY 
 ----------------------------
 CEWIT, Stony Brook, NY  
 **Sr. Research Aide** (Summer & Fall of 2014)   
-* Worked for CA Technologies at CEWIT as on campus internship during MS
-(Google Glass) (Java)
+* Worked for CA Technologies at CEWIT as on campus internship during MS [Java]
 
 Samsung R&D Institute – Bangladesh 
 ----------------------------------
 Dhaka, Bangladesh  
 **Sr. Software Engineer** (Feb - Aug 2013)   
 **Software Engineer** (Jun 2010 - Feb 2013)   
-* Designed a host – target interaction protocol and developed control module with GUI for FPGA and post-silicon SoC (System on Chip) verification platform
-(C#) (WPF) (C) (Linux)
-* Developed modules of a camera SoC verification tool based on μC/OS-II (C)
-* As part of DSP project ported μC/OS-II for custom BSP, ported Web-P for Samsung’s Reconfigurable Processor, developed image codec (C) (C++)
-* Developed localized feature phone system software for target markets (C)
-* Developed smart phone apps for Samsung’s bada platform (C++)
-
+* Designed a host – target interaction protocol and developed control module with GUI for FPGA and post-silicon SoC (System on Chip) verification platform [C#, WPF, C, Linux]
+* Developed modules of a camera SoC verification tool based on μC/OS-II [C]
+* As part of DSP project ported μC/OS-II for custom BSP, ported Web-P for Samsung’s Reconfigurable Processor, developed image codec [C, C++]
+* Developed localized feature phone system software for target markets [C]
+* Developed smart phone apps for Samsung’s bada platform [C++]
 
 Education
 =========
@@ -57,21 +54,20 @@ Education
 Stony Brook University 
 ----------------------
 Stony Brook, NY  
-**MS Computer Science** (CGPA:3.72/4) (Aug 2013 - Dec 2014)   
+**MS - Computer Science** (CGPA:3.72/4) (Aug 2013 - Dec 2014)   
 * Key Courses: Database, Data Mining, Computer Graphics, Analysis of Algorithms, Operating Systems, Brain and Memory Modeling, Artificial Intelligence, Logic in CS
-* Designed tool for opinion mining which leverages entity-keyword bi-graph built from analyzing social network feed (C#)
-* Implemented a procedural watercolor engine to recreate real-time watercolor effects (C++) (OpenGL)
-* Added XML parser for BOSS (brain model simulation tool) INIT module to feed brain model parameters as XML input (C++)
+* Designed tool for opinion mining which leverages entity-keyword bi-graph built from analyzing social network feed [C#]
+* Implemented a procedural watercolor engine to recreate real-time watercolor effects [C++, OpenGL]
+* Added XML parser for BOSS (brain model simulation tool) INIT module to feed brain model parameters as XML input [C++]
 
 Khulna University of Engineering & Technology 
 ---------------------------------------------
 Bangladesh  
-**B.Sc. (Engineering) Computer Science** (Jan 2006 - Jun 2010)   
+**B.Sc. (Engineering) - Computer Science** (Jan 2006 - Jun 2010)   
 * Thesis: “RDF by Structured Reference to Semantics – An approach to emerge Semantic Web”: Developed a framework (RS2-fx) to convert current html web documents into Semantic Web RDF documents by extracting underlying semantics backed by support of an existing ontology
-* Developed an automated traffic jam recognition and alert tool, Traffic Window, aided with image processing (C#)
+* Developed an automated traffic jam recognition and alert tool, Traffic Window, aided with image processing [C#]
 * Developed a Smart home technology, which includes a centrally controlled local system of devices and sensors that actuates smartly upon perceptions. The control unit interfaces with local GUI as well as internet and cellular networks 
-(Java) (ASM) (Microcontroller)
-
+[Java, ASM, Microcontroller]
 
 Miscellaneous
 =============
@@ -89,9 +85,9 @@ projects.nafSadh.com
 
 Links
 -----
-http://github.com/nafSadh  
+https://github.com/nafSadh  
 https://linkedin.com/in/nafsadh  
-http://ins.nafSadh.com  
+https://ins.nafSadh.com  
 
-Updated on Dec 25, 2018, available online: http://re.sadh.me 
+Updated on Jan 01, 2019, available online: http://re.sadh.me 
 Contact for further information

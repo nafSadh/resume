@@ -189,7 +189,7 @@
                   <div class="list-group-item strip" ng-repeat="info in job.info">
                     *
                     <span class="description" ng-bind-html-compile="mlt(info.description)"></span>
-                    <code ng-repeat="key in info.tech">({{ key }}) </code>
+                    <code ng-if="info.tech" ng-bind-html-compile="'['+csl(info.tech)+']'"></code>
                   </div>
                 </div>
               </div>
@@ -241,7 +241,7 @@
 											<em>Thesis</em>: <i class="fa fa-lightbulb-o"></i>
 										</span>
                     <span class="description" ng-bind-html-compile="mlt(info.description)"></span>
-                    <code ng-repeat="key in info.tech">({{ key }}) </code>
+                    <code ng-if="info.tech" ng-bind-html-compile="'['+csl(info.tech)+']'"></code>
                     </li>
                   </div>
                 </div>
