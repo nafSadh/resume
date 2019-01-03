@@ -53,10 +53,10 @@
             "Building new version of TCI’s Loan Origination SaaS- ",
             "<em><a href='http://tcicredit.com/what-is-decisionlender/'>Decision&nbsp;Lender&nbsp;4x</a></em><br/>",
             "- Design, code and implement business logic, data models and user interfaces based on ",
-            "generic and client specific requirements for developing a RESTful SaaS catering to various lenders. ",
+            "generic and client specific requirements for developing a RESTful SaaS, catering to various lenders. ",
             "This includes building core platform, vehicle valuation services, configurable report generation framework, ",
             "various 3<sup>rd</sup> party integration etc.<br/>",
-            "- Since initial release, continuously enhancing and adding features to on-board lenders, ",
+            "- Since initial release, continuously enhancing and adding features to on-board clients, ",
             "while also collaborate with various teams within the org to cultivate better understanding of the product."
           ],
           "tech": [
