@@ -2,7 +2,7 @@
   "name": "Khan ‘Sadh’ Mostafa",
   "avatar": "http://www.gravatar.com/avatar/b3fd795f62899ea17a66ebb4e8bddbd8?s=512&d=mm&r=g",
   "highlights": [
-    "Software Engineer at Teledata Communications, Inc.",
+    "Software Engineer at Google",
     "MS in <abbr data-toggle='tooltip' title='Computer Science'>CS</abbr> from Stony Brook / B.Sc. in <abbr data-toggle='tooltip' title='Computer Science and Engineering'>CSE</abbr>  from KUET",
     "8 years in industry"
   ],
@@ -32,15 +32,15 @@
   },
   "experience": [
     {
-      "company": "Teledata Communications, Inc.",
-      "about": "<img src='http://nafsadh.com/img/tci.png' width='32px'/>TCI builds and provides SaaS for financial institutions. It's flagship product is <em>Decision Lender</em> - a &ldquo;Loan Origination Solution&rdquo; for banks and credit unions.",
-      "location": "Islandia, NY",
-      "mapUrl": "https://goo.gl/maps/H4UB52cWqMp",
+      "company": "Google LLC",
+      "about": "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/375px-Google_2015_logo.svg.png' width='64px'/>Google it!<br/> I am now working with some really smart people to make your home smarter.",
+      "location": "Mountain View, California",
+      "mapUrl": "https://goo.gl/maps/kc4Er71VRBA2",
       "roles": [
         {
           "title": "Software Engineer",
           "time": {
-            "since": "Feb 2015",
+            "since": "Mar 2019",
             "until": "present",
             "current": true
           }
@@ -50,14 +50,35 @@
         {
           "type": "responsibility",
           "description": [
-            "Building new version of TCI’s Loan Origination SaaS- ",
+            "Making your home smarter"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Teledata Communications, Inc.",
+      "about": "<img src='http://nafsadh.com/img/tci.png' width='32px'/>TCI builds and provides SaaS for financial institutions. It's flagship product is <em>Decision Lender</em> - a &ldquo;Loan Origination Solution&rdquo; for banks and credit unions.",
+      "location": "Islandia, NY",
+      "mapUrl": "https://goo.gl/maps/H4UB52cWqMp",
+      "roles": [
+        {
+          "title": "Software Engineer",
+          "time": {
+            "since": "Feb 2015",
+            "until": "Mar 2019"
+          }
+        }
+      ],
+      "info": [
+        {
+          "type": "responsibility",
+          "description": [
+            "Built new version of TCI’s Loan Origination SaaS- ",
             "<em><a href='http://tcicredit.com/what-is-decisionlender/'>Decision&nbsp;Lender&nbsp;4x</a></em><br/>",
-            "- Design, code and implement business logic, data models and user interfaces based on ",
+            "- Designed, coded and implemented business logic, data models and user interfaces based on ",
             "generic and client specific requirements for developing a RESTful SaaS, catering to various lenders. ",
-            "This includes building core platform, vehicle valuation services, configurable report generation framework, ",
-            "various 3<sup>rd</sup> party integration etc.<br/>",
-            "- Since initial release, continuously enhancing and adding features to on-board clients, ",
-            "while also collaborate with various teams within the org to cultivate better understanding of the product."
+            "This included building core platform, vehicle valuation services, configurable report generation framework, ",
+            "various 3<sup>rd</sup> party integration etc. "
           ],
           "tech": [
             "Java 8",
@@ -65,10 +86,6 @@
             "REST",
             "MS SQL"
           ]
-        },
-        {
-          "type": "responsibility",
-          "description": "Developed and maintained <em>Decision Lender v3.5</em> for new and existing clients"
         }
       ]
     },
