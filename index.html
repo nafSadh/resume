@@ -79,6 +79,10 @@
 			$scope.renderAddress = function (_a) {
 				if (_a !== undefined) {
 					var stateTagOpen, stateTagClose;
+					let postCode = '';
+					if(_a.stateFull !== undefined){
+						postCode = " " + _a.postCode;
+					}
 					if (_a.stateFull !== undefined) {
 						stateTagOpen = "<abbr data-toggle='tooltip' title='" + _a.stateFull + "'>";
 						stateTagClose = "</abbr>";
@@ -87,11 +91,10 @@
 					if(_a.street !== undefined){
 					    streetline = _a.street + "<br/>";
 					}
-					return streetline +
-						_a.city + ", " +
-						stateTagOpen + _a.state + stateTagClose
-						+ " "
-						+ _a.postCode;
+					return streetline 
+						+ _a.city + ", " 
+						+ stateTagOpen + _a.state + stateTagClose 
+						+ postCode;
 				}
 			};
 		})
