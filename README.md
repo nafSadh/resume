@@ -10,10 +10,10 @@ Sadh MNM Khan
   -	Backend infra for Android App Safety
   -	Backend ML Platform for Nest
 
-- `2015.02 - 2019.03` **TCI** <small>(Teledata Communication Inc.)</small> - Software Engineer 
+- `2015.02-2019.03` **TCI** <small>(Teledata Communication Inc.)</small> - Software Engineer 
   -	Decision Lender 4x - Loan Origination SaaS 
 
-- `2010.06 - 2013.08` **Samsung** Electronics - Software Engineer
+- `2010.06-2013.08` **Samsung** Electronics - Software Engineer
   -	R&D: Embedded, System Software, DSP
 
 ## Education
