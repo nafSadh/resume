@@ -1,12 +1,10 @@
 Sadh MNM Khan
 =============
-<code>
-  
 @nafSadh · https://nafSadh.com · github.com/nafSadh · linkedin.com/in/nafSadh
 
 ## Experience
 - **Google** - Software Engineer (2019.03 - :)
-  -	Backend infra for Android App Safety Intelligence Platform
+  -	Backend infra for Android App Safety
   -	Backend ML Platform for Nest
 
 - **TCI** (Teledata Communication Inc.) - Software Engineer (2015.02 - 2019.03) 
@@ -26,4 +24,4 @@ Sadh MNM Khan
 -	2007 ACM ICPC Dhaka Regional, 11th Place
 - More projects: https://nafSadh.dev
 
-</code>
+<small>selflink: http://re.sadh.me</small>
