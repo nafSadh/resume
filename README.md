@@ -4,7 +4,7 @@ Sadh MNM Khan
 
 ## Experience
 - **Google** - Software Engineer (2019.03 - :)
-  -	Backend infra for Android App Safety 
+  -	Backend infra for Android App Safety Intelligence Platform
   -	Backend ML Platform for Nest
 
 - **TCI** (Teledata Communication Inc.) - Software Engineer (2015.02 - 2019.03) 
