@@ -6,7 +6,7 @@ Sadh MNM Khan
 [linkedin.com/in/nafSadh](https://linkedin.com/in/nafSadh)
 
 ## Experience
-- `2019.03 - ` **Google** - Software Engineer
+- `2019.03 ->` **Google** - Software Engineer
   -	Backend infra for Android App Safety
   -	Backend ML Platform for Nest
 
