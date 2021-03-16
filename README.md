@@ -1,6 +1,6 @@
-Sadh MNM Khan
-=============
-https://nafSadh.com · @nafSadh · github.com/nafSadh · linkedin.com/in/nafSadh
+Khan 'Sadh' Mostafa
+===================
+@nafSadh · https://nafSadh.com · github.com/nafSadh · linkedin.com/in/nafSadh
 
 ## Experience
 - **Google** - Software Engineer (2019.03 - :)
