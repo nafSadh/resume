@@ -1,5 +1,5 @@
-Khan ‘Sadh’ Mostafa
-===================
+Sadh MNM Khan
+=============
 https://nafSadh.com · @nafSadh · github.com/nafSadh · linkedin.com/in/nafSadh
 
 ## Experience
