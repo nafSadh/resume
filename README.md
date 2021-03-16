@@ -1,20 +1,16 @@
 Khan ‘Sadh’ Mostafa
 ===================
-nafSadh.com · @nafSadh 
-github.com/nafSadh · linkedin.com/in/nafSadh
+https://nafSadh.com · @nafSadh · github.com/nafSadh · linkedin.com/in/nafSadh
 
 ## Experience
-**Google** 
-- Software Engineer (2019.03 - :)
+- **Google** - Software Engineer (2019.03 - :)
   -	Backend infra for Android App Safety 
   -	Backend ML Platform for Nest
 
-**TCI** (Teledata Communication Inc.)
-- Software Engineer (2015.02 - 2019.03) 
+- **TCI** (Teledata Communication Inc.) - Software Engineer (2015.02 - 2019.03) 
   -	Decision Lender 4x - Loan Origination SaaS 
 
-**Samsung** Electronics
-- Software Engineer (2010.06 - 2013.08)
+- **Samsung** Electronics - Software Engineer (2010.06 - 2013.08)
   -	R&D: Embedded, System Software, DSP
 
 ## Education
