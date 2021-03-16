@@ -24,4 +24,4 @@ Sadh MNM Khan
 -	2007 ACM ICPC Dhaka Regional, 11th Place
 - More projects: https://nafSadh.dev
 
-<small>selflink: http://re.sadh.me</small>
+<small>link to this page: http://re.sadh.me</small>
