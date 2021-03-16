@@ -6,19 +6,19 @@ Sadh MNM Khan
 [linkedin.com/in/nafSadh](https://linkedin.com/in/nafSadh)
 
 ## Experience
-- **Google** - Software Engineer (2019.03 - :)
+- `2019.03 - ` **Google** - Software Engineer
   -	Backend infra for Android App Safety
   -	Backend ML Platform for Nest
 
-- **TCI** (Teledata Communication Inc.) - Software Engineer (2015.02 - 2019.03) 
+- `2015.02 - 2019.03` **TCI** <small>(Teledata Communication Inc.)</small> - Software Engineer 
   -	Decision Lender 4x - Loan Origination SaaS 
 
-- **Samsung** Electronics - Software Engineer (2010.06 - 2013.08)
+- `2010.06 - 2013.08` **Samsung** Electronics - Software Engineer
   -	R&D: Embedded, System Software, DSP
 
 ## Education
-- MS Computer Science, Stony Brook University (2013.08-2014.12)
-- B.Sc. Computer Science and Engineering, KUET (2006.01-2010.06)
+- `2013.08-2014.12` **MS** Computer Science, Stony Brook University
+- `2006.01-2010.06` **B.Sc.** Computer Science and Engineering, KUET
 
 ## Misc.
 -	Vexillophile & Webmaster, flags.fyi - compendium of flag info
