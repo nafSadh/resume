@@ -1,6 +1,9 @@
 Sadh MNM Khan
 =============
-@nafSadh · https://nafSadh.com · github.com/nafSadh · linkedin.com/in/nafSadh
+@nafSadh · 
+[nafSadh.com](https://nafSadh.com) · 
+[github.com/nafSadh](https://github.com/nafSadh) · 
+[linkedin.com/in/nafSadh](https://linkedin.com/in/nafSadh)
 
 ## Experience
 - **Google** - Software Engineer (2019.03 - :)
@@ -24,4 +27,4 @@ Sadh MNM Khan
 -	2007 ACM ICPC Dhaka Regional, 11th Place
 - More projects: https://nafSadh.dev
 
-<small>Link to this page: http://re.sadh.me</small>
+<small>Link to this page: [re.sadh.me](http://re.sadh.me)</small>
