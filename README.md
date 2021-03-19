@@ -10,15 +10,11 @@ Sadh MNM Khan
 - `2019.03 ->` **Google** - Software Engineer
   -	Backend infra for Android App Safety
   -	Backend ML Platform for Nest
-
 - `2015.02-2019.03` **TCI** <small>(Teledata Communication Inc.)</small> - Software Engineer 
   -	Decision Lender 4x - Loan Origination SaaS 
-
 - `2013.08-2014.12` **MS** Computer Science, Stony Brook University
-
 - `2010.06-2013.08` **Samsung** Electronics - Software Engineer
   -	R&D: Embedded, System Software, DSP
- 
 - `2006.01-2010.06` **B.Sc.** Computer Science and Engineering, KUET
 
 ## etc.
