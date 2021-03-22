@@ -1,5 +1,8 @@
 Sadh MNM Khan
 =============
+[![GitHub stars](https://img.shields.io/github/stars/nafSadh/resume.svg?style=social&label=Stars)](https://github.com/nafSadh/resume)
+![GitHub last commit](https://img.shields.io/github/last-commit/nafsadh/resume.svg)
+
 @nafSadh · 
 [nafSadh.com](https://nafSadh.com) · 
 [github.com/nafSadh](https://github.com/nafSadh) · 
@@ -8,10 +11,10 @@ Sadh MNM Khan
 
 ## Exp.
 - `2019.03 ->` **Google** - Software Engineer
-  - Backend infra for Android App Safety
-  - Backend ML Platform for Nest 
+  - Building self-serviceable backend workflow platform for Android App Safety
+  - Built the backend ML Platform powering Presence Sensing, Home/Away routines in Google Home 
 - `2015.02-2019.03` **TCI** <small>(Teledata Communication Inc.)</small> - Software Engineer 
-  -	Decision Lender 4x - Loan Origination SaaS 
+  -	Developed _Decision Lender 4x_ <small>(a Loan Origination SaaS)</small> from scratch, launched and on boarded hundreds of clients 
 - `2010.06-2013.08` **Samsung** Electronics - Software Engineer
   -	R&D: Embedded, System Software, DSP
 
