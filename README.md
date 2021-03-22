@@ -1,13 +1,12 @@
 Sadh MNM Khan
 =============
-[![GitHub stars](https://img.shields.io/github/stars/nafSadh/resume.svg?style=social&label=Stars)](https://github.com/nafSadh/resume)
-![GitHub last commit](https://img.shields.io/github/last-commit/nafsadh/resume.svg)
-
 @nafSadh · 
 [nafSadh.com](https://nafSadh.com) · 
 [github.com/nafSadh](https://github.com/nafSadh) · 
 [linkedin.com/in/nafSadh](https://linkedin.com/in/nafSadh)
 
+[![GitHub stars](https://img.shields.io/github/stars/nafSadh/resume.svg?style=social&label=Stars)](https://github.com/nafSadh/resume)
+![GitHub last commit](https://img.shields.io/github/last-commit/nafsadh/resume.svg)
 
 ## Exp.
 - `2019.03 ->` **Google** - Software Engineer
