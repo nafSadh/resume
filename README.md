@@ -12,7 +12,7 @@ Sadh MNM Khan
 - `2019.03 ~` **Google** - Software Engineer
   - Driving multiple cross-team and cross-org collaborations
     to build, maintain and improve backend infra that ensures [Trust 
-    & Safety of the Android ecosystem](https://www.android.com/safety/)  
+    & Safety](https://www.android.com/safety/) of the Android ecosystem
   - Built Google Nest's backend ML platform that powers 
     Home/Away [Presence Sensing](https://support.google.com/googlenest/answer/10000312?hl=en) 
     and [Home Routines](https://support.google.com/googlenest/answer/7029585?gl=gb)
