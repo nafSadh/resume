@@ -17,7 +17,7 @@ Sadh MNM Khan
      [Presence Sensing](https://support.google.com/googlenest/answer/10000312?hl=en) and 
      [Home Routines](https://support.google.com/googlenest/answer/7029585?gl=gb).
     
-- `2015.02-2019.03` **TCI** <small>(Teledata Communication Inc.)</small> - Senior Software Engineer 
+- `2015.02-2019.03` **TCI** <small>(Teledata Communication Inc.)</small> - Software Engineer 
   -	Developed [Decision Lender 4x](https://tcicredit.com/products/decisionlender4/) 
     <small>(a Loan Origination SaaS)</small> 
     from scratch, launched and on boarded hundreds of clients. 
