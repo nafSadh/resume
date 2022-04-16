@@ -9,7 +9,7 @@ Sadh MNM Khan
 ![GitHub last commit](https://img.shields.io/github/last-commit/nafsadh/resume.svg)
 
 ## Exp.
-- `2019.03 ~` **Google** - Software Engineer  
+- `2019.03 ~` **Google** - Senior Software Engineer  
    - Driving multiple cross-team and cross-org collaborations to build, maintain and
      improve backend infra that ensures [Trust & Safety](https://www.android.com/safety/)
      of the Android ecosystem.  
@@ -17,11 +17,11 @@ Sadh MNM Khan
      [Presence Sensing](https://support.google.com/googlenest/answer/10000312?hl=en) and 
      [Home Routines](https://support.google.com/googlenest/answer/7029585?gl=gb).
     
-- `2015.02-2019.03` **TCI** <small>(Teledata Communication Inc.)</small> - Software Engineer 
+- `2015.02-2019.03` **TCI** <small>(Teledata Communication Inc.)</small> - Senior Software Engineer 
   -	Developed [Decision Lender 4x](https://tcicredit.com/products/decisionlender4/) 
     <small>(a Loan Origination SaaS)</small> 
     from scratch, launched and on boarded hundreds of clients. 
-- `2010.06-2013.08` **Samsung** Electronics - Software Engineer
+- `2010.06-2013.08` **Samsung** Electronics - Senior Software Engineer
   -	R&D: Embedded, System Software, DSP.
 
 ## Ed.
