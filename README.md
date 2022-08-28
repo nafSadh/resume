@@ -9,9 +9,11 @@ Sadh MNM Khan
 ![GitHub last commit](https://img.shields.io/github/last-commit/nafsadh/resume.svg)
 
 ## Exp.
-- `2019.03 ~` **Google** - Senior Software Engineer  
-   - Driving multiple cross-team and cross-org collaborations to build, maintain and
-     improve backend infra that ensures [Trust & Safety](https://www.android.com/safety/)
+- `2019.03 ~` **Google** - Senior Software Engineer
+   - Building next new things with applications of AI, natural language understanding and 
+     large language models.
+   - Built new backend infra and led multiple cross-org collaborations to maintain and
+     improve backend systems that ensure [Trust & Safety](https://www.android.com/safety/)
      of the Android ecosystem.  
    - Built Google Nest's backend ML platform that powers
      [Presence Sensing](https://support.google.com/googlenest/answer/10000312?hl=en) and 
