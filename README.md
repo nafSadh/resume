@@ -22,7 +22,7 @@ Sadh MNM Khan
 - `2015.02-2019.03` **TCI** <small>(Teledata Communication Inc.)</small> - Software Engineer 
   -	Developed [Decision Lender 4x](https://tcicredit.com/products/decisionlender4/) 
     <small>(a Loan Origination SaaS)</small> 
-    from scratch, launched and on boarded hundreds of clients. 
+    from scratch, launched and onboarded hundreds of clients. 
 - `2010.06-2013.08` **Samsung** Electronics - Senior Software Engineer
   -	R&D: Embedded, System Software, DSP.
 
