@@ -45,4 +45,4 @@
 - 2007 ACM ICPC Dhaka Regional, 11th Place.
 - More projects: [nafSadh.dev](https://nafSadh.dev).
 
-<small>Link to this page: [re.sadh.me](http://re.sadh.me)</small>
+<small>Link to this page: [re.sadh.me](http://re.sadh.me) | [PDF version](http://re.sadh.me/2022.pdf)</small>
