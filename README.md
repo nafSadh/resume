@@ -11,8 +11,8 @@
 ## Exp.
 
 - `2019.03 ~` **Google** - Senior Software Engineer
-  - Driving cross org effort exploring the possibilities and applications of
-    large language models and generative AI.
+  - Driving cross org efforts exploring the possibilities and applications of large language models
+    and generative AI. These led to some announced and upcoming public launches.
   - Led multiple cross-team and cross-org collaborations to build, maintain and
     improve backend infra that ensures [Trust & Safety](https://www.android.com/safety/)
     of the Android ecosystem. Accelerated launch of various crucial safety reviews including
@@ -45,4 +45,4 @@
 - 2007 ACM ICPC Dhaka Regional, 11th Place.
 - More projects: [nafSadh.dev](https://nafSadh.dev).
 
-<small>Link to this page: [re.sadh.me](http://re.sadh.me) | [PDF version](http://re.sadh.me/2022.pdf)</small>
+<small>Link to this page: [re.sadh.me](http://re.sadh.me) | [PDF version](http://re.sadh.me/2023.pdf)</small>
