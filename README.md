@@ -8,6 +8,8 @@
 [![GitHub stars](https://img.shields.io/github/stars/nafSadh/resume.svg?style=social&label=Stars)](https://github.com/nafSadh/resume)
 ![GitHub last commit](https://img.shields.io/github/last-commit/nafsadh/resume.svg)
 
+_Experienced software engineer building impactful products and teams. Now at the forefront of software and generative AI integration, harnessing LLMs for enhanced human-machine collaboration._
+
 ## Exp.
 
 - `2019.03 ~` **Google** - Senior Software Engineer
