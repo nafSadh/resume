@@ -8,14 +8,18 @@
 [![GitHub stars](https://img.shields.io/github/stars/nafSadh/resume.svg?style=social&label=Stars)](https://github.com/nafSadh/resume)
 ![GitHub last commit](https://img.shields.io/github/last-commit/nafsadh/resume.svg)
 
-_Experienced software engineer building impactful products and teams. Now at the forefront of software and generative AI integration, harnessing LLMs for enhanced human-machine collaboration._
+_Software engineer with a proven track record of building impactful products,
+now working at the intersection of generative AI and software systems._
 
 ## Exp.
 
 - `2019.03 ~` **Google** - Senior Software Engineer
    - **[Google Labs](https://Labs.Google)** \
-     Exploring the possibilities and applications of large language models
-     and generative AI. \
+     Augmenting capabilities of LLMs through development of integrated features 
+     like function calling and retrieval, empowering developers to create 
+     transformative applications. \
+     These are outcomes of continued explorations through crafting and deploying 
+     internal apps that tackle real-world challenges. \
      [Launched](https://twitter.com/sundarpichai/status/1734952757722001626):
      [Gemini API](https://ai.google.dev/),
      [Function calling](https://ai.google.dev/docs/function_calling)
@@ -35,16 +39,22 @@ _Experienced software engineer building impactful products and teams. Now at the
     [Home Routines](https://support.google.com/googlenest/answer/7029585?gl=gb).
 
 - `2015.02-2019.03` **TCI** <small>(Teledata Communication Inc.)</small> - Software Engineer
-  - Built TCI’s new Loan Origination SaaS -
-    [Decision Lender 4x](https://www.meridianlink.com/loan-origination-system/decisionlender)
-    from the ground up.
-    Owned multiple feature verticals, third-party integrations and horizontal platform.
-    Launched and onboarded hundreds of clients. \
-    The product was later [sold to MeridianLink](https://www.meridianlink.com/news-events/meridianlink-announces-the-acquisition-of-teledata-communications),
-    which [IPO](https://www.marketwatch.com/story/meridianlink-ipo-prices-at-top-of-expected-range-valuing-company-at-more-than-2-billion-2021-07-28)'d
-    in 2021.
+  - Developed TCI's then new Loan Origination SaaS, 
+    [Decision Lender 4x](https://www.meridianlink.com/loan-origination-system/decisionlender), 
+    from inception to launch. \
+    Owned multiple feature verticals, third-party integrations, and horizontal 
+    platform development. \
+    Onboarded hundreds of clients, contributing to significant revenue growth.
+  - The product was later [acquired
+   ](https://www.meridianlink.com/news-events/meridianlink-announces-the-acquisition-of-teledata-communications) 
+   by MeridianLink, which subsequently went [public
+   ](https://www.marketwatch.com/story/meridianlink-ipo-prices-at-top-of-expected-range-valuing-company-at-more-than-2-billion-2021-07-28) 
+   in 2021.
+
 - `2010.06-2013.08` **Samsung** Electronics - Senior Software Engineer
-   - R&D: Embedded, System Software, DSP.
+   - Founding member of R&D center in Bangladesh. 
+   - Key work includes embedded systems, SoC verification, feature phone OS, 
+     Web-P on reconfigurable procession, smartphone apps etc.
 
 ## Ed.
 
@@ -53,11 +63,12 @@ _Experienced software engineer building impactful products and teams. Now at the
 
 ## Etc.
 
-- Vexillophile & Webmaster, [flags.fyi](https://flags.fyi) - compendium of flag info.
-- Publisher & Co-Founder, [lekhalikhi.com](https://web.archive.org/web/20210809050053/http://lekhalikhi.com/) – Bengali literary platform.
-- Designed [Sonnivo](https://sonnivo.nafsadh.com/) Bengali keyboard layout.
-- Awarded Icon of the Month, Samsung Electronics.
+- Flag enthusiast and webmaster of [flags.fyi](https://flags.fyi), a resource on 
+  flag information (work in progress).
+- Co-founder and publisher of Lekhalikhi.com, a platform that fostered the 
+  growth of Bengali literature (now defunct).
+- Designed the [Sonnivo](https://sonnivo.nafsadh.com/) Bengali keyboard layout.
 - 2007 ACM ICPC Dhaka Regional, 11th Place.
-- More projects: [nafSadh.dev](https://nafSadh.dev).
+- Grognard Extraordinaire at Wikipedia English.
 
 <small>Link to this page: [re.sadh.me](http://re.sadh.me) | [PDF version](http://re.sadh.me/2023.pdf)</small>
