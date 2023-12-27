@@ -21,7 +21,7 @@ now working at the intersection of generative AI and software systems._
   applications. 
 - Crafting and deploying internal applications to tackle real-world challenges 
   and exploring the boundaries of AI – leading to continued development of LLMs 
-  and similar features. \
+  and similar features. 
 - [Launched](https://twitter.com/sundarpichai/status/1734952757722001626):
   [Gemini API](https://ai.google.dev/),
   [Function calling](https://ai.google.dev/docs/function_calling)
