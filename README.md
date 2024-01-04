@@ -21,7 +21,7 @@ now working at the intersection of generative AI and software systems._
   applications. 
 - Crafting and deploying internal applications to tackle real-world challenges 
   and exploring the boundaries of AI – leading to continued development of LLMs 
-  and similar features. 
+  with similar features. 
 - [Launched](https://twitter.com/sundarpichai/status/1734952757722001626):
   [Gemini API](https://ai.google.dev/),
   [Function calling](https://ai.google.dev/docs/function_calling)
@@ -69,4 +69,4 @@ now working at the intersection of generative AI and software systems._
 - 2007 ACM ICPC Dhaka Regional, 11th Place.
 - Grognard Extraordinaire at Wikipedia English.
 
-<small>Link to this page: [re.sadh.me](http://re.sadh.me) | [PDF version](http://re.sadh.me/2024.pdf)</small>
+<small>Link to this page: [re.sadh.me](http://re.sadh.me) | [PDF version](http://resume.nafsadh.com/2024.pdf)</small>
