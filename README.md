@@ -28,9 +28,9 @@ now working at the intersection of generative AI and software systems._
   and [Semantic retriever](https://ai.google.dev/docs/semantic_retriever).
 
 **[Android App Safety](https://www.android.com/safety/)** 
-- Built self-serviceable decision workflow for Android App Safety.
-- Led collaborations to improve backend infrastructure.
-- Accelerated launches of:
+- Built self-serviceable decision workflow, improving launch velocity of Play Store policies. 
+- Led cross-org infrastructure overhaul, for a more reliable and maintainable system.
+- Launched:
   [Play Safety Labels](https://blog.google/products/google-play/data-safety/),
   [Package Visibility](https://support.google.com/googleplay/android-developer/answer/10158779#zippy=%2Cinvalid-uses%2Cpermitted-uses-of-the-query-all-packages-permission),
   [A11y](https://support.google.com/googleplay/android-developer/answer/10964491?hl=en)
@@ -55,7 +55,7 @@ now working at the intersection of generative AI and software systems._
 `2010.06-2013.08` **Samsung** Electronics - Senior Software Engineer
 - Founding member of R&D center in Bangladesh. 
 - Key work includes embedded systems, SoC verification, feature phone OS, Web-P
-  on reconfigurable procession, smartphone apps etc.
+  on reconfigurable processor, smartphone apps etc.
 
 ## Ed.
 
@@ -68,5 +68,11 @@ now working at the intersection of generative AI and software systems._
 - Designed the [Sonnivo](https://sonnivo.nafsadh.com/) Bengali keyboard layout.
 - 2007 ACM ICPC Dhaka Regional, 11th Place.
 - Grognard Extraordinaire at Wikipedia English.
+
+<small>Language agnostic. 
+Recently: C++, Java, TS, Python; 
+Previously: C, C#, JS, PHP, ASM etc. 
+Want to try: Go, Rust.
+</small>
 
 <small>Link to this page: [re.sadh.me](http://re.sadh.me) | [PDF version](http://resume.nafsadh.com/2024.pdf)</small>
